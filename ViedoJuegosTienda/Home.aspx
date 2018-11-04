@@ -12,7 +12,7 @@
         <div>
         </div>
         <div class="alert alert-primary" role="alert">
-          A simple primary alert—check it out!uyfiuyiu
+          A simple primary alert—check it out!Te amo Rebeca
         </div>
     </form>
 </body>
