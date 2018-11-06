@@ -20,8 +20,10 @@
         <%--Search Bar--%>
         <nav class="navbar navbar-light bg-light">
           <a class="navbar-brand">Videojuegos para ver!</a>
+          <div class="form-inline">
             <input class="form-control mr-sm-2" type="search" placeholder="Busca tu juego!" aria-label="Search">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+          </div>
         </nav>        
 
         <%--Nav Bar--%>
