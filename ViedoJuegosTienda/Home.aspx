@@ -11,13 +11,13 @@
 <body>
 
 
+        <form id="form1" runat="server">
+
         <%--Search Bar--%>
         <nav class="navbar navbar-light bg-light">
           <a class="navbar-brand">Videojuegos para ver!</a>
-          <form class="form-inline">
             <input class="form-control mr-sm-2" type="search" placeholder="Busca tu juego!" aria-label="Search">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
-          </form>
         </nav>        
 
         <%--Nav Bar--%>
@@ -46,14 +46,23 @@
         </div>
 
         <%--Carousel--%>
-
         
 
         <%--Menu Consolas--%>
-
         <%--Juegos--%>
-
         <%--Footer--%>
-    
+        <div class="container">
+             
+            
+            
+            <asp:HyperLink ID="derechos" runat="server" 
+                NavigateUrl="~/salesreportsummary/2010">
+                Sales Report - All locales, 2010
+            </asp:HyperLink>
+            <br />
+&nbsp;&nbsp;&nbsp;&nbsp;
+             
+        </div>
+        </form>
 </body>
 </html>
