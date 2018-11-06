@@ -1,11 +1,11 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Contacto.aspx.cs" Inherits="ViedoJuegosTienda.Contacto" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Preventa.aspx.cs" Inherits="ViedoJuegosTienda.Preventa" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
-     <%-- EL Bootsrap Requiere de JQuery y Popper para poder funcionar en su totalidad --%>
+    <%-- EL Bootsrap Requiere de JQuery y Popper para poder funcionar en su totalidad --%>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
@@ -15,8 +15,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        
-        <%--Search Bar--%>
+    <%--Search Bar--%>
         <nav class="navbar navbar-light bg-light">
           <a class="navbar-brand">Games Tec</a>
           <div class="form-inline">
@@ -26,7 +25,8 @@
         </nav>        
 
         <%--Nav Bar--%>
-         <div class="container-fluid" role="group" aria-label="Basic example">
+        
+       <div class="container-fluid" role="group" aria-label="Basic example">
            <div class="row consolasMenu">
                 <div class="col-sm ">
                     <a class="nav-item nav-link active texto" href="#">Inicio</a>
@@ -57,38 +57,8 @@
         </div>
 
 
-      <%--  formulario --%>
-
-        <div class="cajaContacto">
-              <form>
-
-              <div class="form-group">
-                <label for="exampleFormControlInput1">Nombre</label>
-                <input type="name" class="form-control" id="exampleFormControlInput1" >
-              </div>
-              <div class="form-group">
-                <label for="exampleFormControlInput1">Correo</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="correo@gmail.com">
-              </div>
-              <div class="form-group">
-                <label for="exampleFormControlTextarea1">Comentarios</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="8"></textarea>
-
-           
-              </div>
-        <asp:Button ID="enviar" class="btn btn-outline-secondary" runat="server" OnClick="enviar_Click" Text="Enviar" />
-        <asp:Button ID="cancelar" class="btn btn-outline-secondary" runat="server" OnClick="cancelar_Click" Text="Cancelar" />
-            </form>
-        </div>
-
-        <%--Botones--%>
-
-        
-
          <%--Footer--%>
-        
-
-            <div class="p-3 mb-2 bg-dark text-white">
+        <div class="p-3 mb-2 bg-dark text-white">
            
                 
  
@@ -133,8 +103,6 @@
                 
             </div>
       
-
-
         
 
     </form>

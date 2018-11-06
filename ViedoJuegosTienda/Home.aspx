@@ -33,23 +33,30 @@
         
        <div class="container-fluid" role="group" aria-label="Basic example">
            <div class="row consolasMenu">
-                <div class="col-sm">
-                    Inicio
+                <div class="col-sm ">
+                    <a class="nav-item nav-link active texto" href="#">Inicio</a>
+                    
                 </div>
                <div class="col-sm">
-                    Preventa
+
+                   <a class="nav-item nav-link texto" href="#">Preventa</a>
+                    
                 </div>
                <div class="col-sm">
-                    Xbox
+                   <a class="nav-item nav-link texto" href="#"> Xbox</a>
+                   
                 </div>
                <div class="col-sm">
-                    Ps4
+                   <a class="nav-item nav-link texto" href="#"> Ps4</a>
+                   
                 </div>
                <div class="col-sm">
-                    Nintendo
+                   <a class="nav-item nav-link texto" href="#">Nintendo</a>
+                    
                 </div>
                <div class="col-sm">
-                    Contacto
+                  <a class="nav-item nav-link texto" href="#">Contacto</a>
+                   
                 </div>
             </div>
         </div>
