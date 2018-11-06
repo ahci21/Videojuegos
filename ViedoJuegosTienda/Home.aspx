@@ -85,18 +85,54 @@
         <%--Menu Consolas--%>
         <%--Juegos--%>
         <%--Footer--%>
-        <div class="container">
-             
-            
-            
-            <asp:HyperLink ID="derechos" runat="server" 
-                NavigateUrl="~/derechosdeautor/derechos_autor.html">
-                Derechos de autor
-            </asp:HyperLink>
-            <br />
+        <%--<div class="container-fluid">--%>
 
-             
-        </div>
+            <div class="p-3 mb-2 bg-dark text-white">
+           
+                
+ 
+                <asp:HyperLink ID="derechos" runat="server" style ="color:white; margin-left:2%; margin-right:1%"  
+                    NavigateUrl="~/derechosdeautor/derechos_autor.html">
+                    Derechos de autor
+                 </asp:HyperLink>
+
+                
+                <asp:HyperLink ID="contacto" runat="server" style ="color:white; margin-left:5%; margin-right:1%" 
+                    NavigateUrl="#">
+                    Contacto
+                </asp:HyperLink>
+
+                <asp:HyperLink ID="miCuenta" runat="server" style ="color:white; margin-left:5%; margin-right:1%"
+                    NavigateUrl="#">
+                    Cuenta
+                </asp:HyperLink>
+  
+
+                 <asp:HyperLink ID="Nintendo" runat="server" style ="color:white; margin-left:5%; margin-right:1%"
+                    NavigateUrl="#">
+                    Nintendo
+                 </asp:HyperLink>
+                 
+    
+                 <asp:HyperLink ID="Xbox" runat="server" style ="color:white; margin-left:5%; margin-right:1%"
+                    NavigateUrl="#">
+                    Xbox
+                 </asp:HyperLink>
+                 
+
+                <asp:HyperLink ID="ps4" runat="server" style ="color:white; margin-left:5%; margin-right:1%"
+                    NavigateUrl="#">
+                    PS4
+                 </asp:HyperLink>
+
+            <asp:HyperLink ID="face" runat="server" style ="color:white; float:right"
+                NavigateUrl="#">
+                FaceBook
+            </asp:HyperLink>
+                
+            </div>
+      
+        <%--</div>--%>
         </form>
 </body>
 </html>
