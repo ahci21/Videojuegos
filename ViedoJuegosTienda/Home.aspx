@@ -50,9 +50,7 @@
         </div>
 
         <%--Carousel--%>
-<<<<<<< HEAD
-        
-=======
+
 
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
@@ -80,7 +78,7 @@
             <span class="sr-only">Next</span>
           </a>
         </div>
->>>>>>> 5d132ed9a8700268519c8890e568938dba3a799b
+
 
         <%--Menu Consolas--%>
         <%--Juegos--%>
@@ -90,11 +88,11 @@
             
             
             <asp:HyperLink ID="derechos" runat="server" 
-                NavigateUrl="~/salesreportsummary/2010">
-                Sales Report - All locales, 2010
+                NavigateUrl="~/derechosdeautor/derechos_autor.html">
+                Derechos de autor
             </asp:HyperLink>
             <br />
-&nbsp;&nbsp;&nbsp;&nbsp;
+
              
         </div>
         </form>
