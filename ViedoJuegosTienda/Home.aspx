@@ -19,7 +19,7 @@
 
         <%--Search Bar--%>
         <nav class="navbar navbar-light bg-light">
-          <a class="navbar-brand">Videojuegos para ver!</a>
+          <a class="navbar-brand">Games Tec</a>
           <div class="form-inline">
             <input class="form-control mr-sm-2" type="search" placeholder="Busca tu juego!" aria-label="Search">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
@@ -83,6 +83,22 @@
 
 
         <%--Menu Consolas--%>
+          <ul class="nav nav-tabs">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Consolas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Nintendo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Xbox</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">PS4</a>
+          </li>
+          
+        </ul>
+
         <%--Juegos--%>
         <%--Footer--%>
         <%--<div class="container-fluid">--%>
