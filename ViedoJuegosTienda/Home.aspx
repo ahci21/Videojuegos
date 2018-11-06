@@ -4,13 +4,16 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title> </title>
     <%-- EL Bootsrap Requiere de JQuery y Popper para poder funcionar en su totalidad --%>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     <link href="css/bootstrap.min.css" rel="stylesheet" />
     <link href="css/colores.css" rel="stylesheet" />
+    
+   
+
 </head>
 <body>
 
@@ -100,8 +103,34 @@
         </ul>
 
         <%--Juegos--%>
+            <div class="card-deck">
+          <div class="card">
+            <img class="card-img-top" src=".../100px200/" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Juego</h5>
+              <p class="card-text">Descripcion juego.</p>
+              
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src=".../100px200/" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Juego</h5>
+              <p class="card-text">Descripcion juego.</p>
+              
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src=".../100px200/" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              
+            </div>
+          </div>
+        </div>
         <%--Footer--%>
-        <%--<div class="container-fluid">--%>
+        
 
             <div class="p-3 mb-2 bg-dark text-white">
            
@@ -148,7 +177,7 @@
                 
             </div>
       
-        <%--</div>--%>
+        
         </form>
 </body>
 </html>
