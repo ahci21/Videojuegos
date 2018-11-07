@@ -75,6 +75,7 @@
     <Content Include="css\bootstrap.css.map" />
     <Content Include="css\bootstrap.min.css.map" />
     <Content Include="css\colores.css" />
+    <Content Include="Img\Consolas\consolaXbox.jpg" />
     <Content Include="Img\Portadas\cover.jpg" />
     <Content Include="Img\Portadas\cover2.jpg" />
     <Content Include="Img\Portadas\cover3.jpg" />

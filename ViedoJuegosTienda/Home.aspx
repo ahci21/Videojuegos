@@ -39,11 +39,7 @@
                     <a class="nav-item nav-link active texto aMenu " href="Home.aspx">Inicio</a>
                     
                 </div>
-               <div class="col-sm">
-
-                   <a class="nav-item nav-link texto aMenu" href="Preventa.aspx">Preventa</a>
-                    
-                </div>
+              
                <div class="col-sm">
                    <a class="nav-item nav-link texto aMenu" href="#"> Xbox</a>
                    
@@ -54,6 +50,11 @@
                 </div>
                <div class="col-sm">
                    <a class="nav-item nav-link texto aMenu" href="#">Nintendo</a>
+                    
+                </div>
+                <div class="col-sm">
+
+                   <a class="nav-item nav-link texto aMenu" href="Preventa.aspx">Preventa</a>
                     
                 </div>
                <div class="col-sm">
@@ -111,8 +112,24 @@
           </li>
           
         </ul>
+        <%--xbox (JUEGOS)--%>
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="Img/Portadas/cover2.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Halo</h5>
+            <p class="card-text">Mata!.</p>
+            <a href="Preventa.aspx" class="btn btn-primary">Aparta ya!</a>
+          </div>
+        </div>
 
-        
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="Img/Consolas/consolaXbox.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Xbox One</h5>
+            <p class="card-text">Mata!.</p>
+            <a href="Preventa.aspx" class="btn btn-primary">Aparta ya!</a>
+          </div>
+        </div>
 
         <%--Juegos--%>
          

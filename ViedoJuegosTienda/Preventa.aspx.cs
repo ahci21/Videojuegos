@@ -18,5 +18,10 @@ namespace ViedoJuegosTienda
         {
 
         }
+
+        protected void cancelarVenta_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

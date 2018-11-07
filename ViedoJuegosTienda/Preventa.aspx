@@ -23,6 +23,8 @@
           <div class="form-inline">
             <input class="form-control mr-sm-2" type="search" placeholder="Busca tu juego!" aria-label="Search">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Iniciar Sesión</button>
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Carritou</button>
           </div>
         </nav>        
 
@@ -34,11 +36,7 @@
                     <a class="nav-item nav-link active texto aMenu " href="Home.aspx">Inicio</a>
                     
                 </div>
-               <div class="col-sm">
-
-                   <a class="nav-item nav-link texto aMenu" href="Preventa.aspx">Preventa</a>
-                    
-                </div>
+               
                <div class="col-sm">
                    <a class="nav-item nav-link texto aMenu" href="#"> Xbox</a>
                    
@@ -49,6 +47,11 @@
                 </div>
                <div class="col-sm">
                    <a class="nav-item nav-link texto aMenu" href="#">Nintendo</a>
+                    
+                </div>
+               <div class="col-sm">
+
+                   <a class="nav-item nav-link texto aMenu" href="Preventa.aspx">Preventa</a>
                     
                 </div>
                <div class="col-sm">
@@ -100,11 +103,13 @@
                 </tr>
               </tbody>
             </table>
-
+            </div>
+            <%--<div class="venta">--%>
+            <h2 >¿Qué desea hacer?</h2>
             <asp:Button ID="venta" class="btn btn-outline-secondary" runat="server" OnClick="venta_Click" Text="Aceptar" />
-        
-
-        </div>
+            <asp:Button ID="cancelarVenta" class="btn btn-outline-secondary cancelar" runat="server" OnClick="cancelarVenta_Click" Text="Cancelar compra" />
+            <%--</div>--%>
+     
 
         
 

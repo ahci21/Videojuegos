@@ -23,6 +23,8 @@
           <div class="form-inline">
             <input class="form-control mr-sm-2" type="search" placeholder="Busca tu juego!" aria-label="Search">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Iniciar Sesión</button>
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Carritou</button>
           </div>
         </nav>        
 
@@ -33,11 +35,7 @@
                     <a class="nav-item nav-link active texto aMenu " href="Home.aspx">Inicio</a>
                     
                 </div>
-               <div class="col-sm">
-
-                   <a class="nav-item nav-link texto aMenu" href="Preventa.aspx">Preventa</a>
-                    
-                </div>
+               
                <div class="col-sm">
                    <a class="nav-item nav-link texto aMenu" href="#"> Xbox</a>
                    
@@ -48,6 +46,11 @@
                 </div>
                <div class="col-sm">
                    <a class="nav-item nav-link texto aMenu" href="#">Nintendo</a>
+                    
+                </div>
+               <div class="col-sm">
+
+                   <a class="nav-item nav-link texto aMenu" href="Preventa.aspx">Preventa</a>
                     
                 </div>
                <div class="col-sm">
