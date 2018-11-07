@@ -1,4 +1,12 @@
-﻿.consolasMenu {
+﻿img {
+    height: 250px;
+}
+
+p {
+    text-align: center;
+}
+
+.consolasMenu {
     background-color:rebeccapurple;
     color: white;
     text-align: center;
@@ -8,12 +16,15 @@
     color:white;
 }
 
+.aMenu {
+    
+}
 
-/*.hipervinculo {
+.aMenu:hover { 
+    background-color: #7651aa;
     color: white;
-    margin-left:5%;
-    margin-right:1%;
-}*/
+}
+
 .cajaContacto{
     width: 700px;
     height: 525px;
@@ -35,6 +46,38 @@
     margin-right:8%;
 }
 
+#cabecera {
+    background-color: #808080;
+    color: white;
+}
+
+#recomendados {
+    margin: 25px;
+}
+
+.recoControl {
+    margin-top: 105px;
+    width: 50px;
+    height: 50px;
+    background-color:rebeccapurple;
+
+}
+
+
+
 .g-recaptcha {
     padding-left: 200px;
+}
+
+.tablas {
+    width: 50%;
+    margin: 25px;
+    margin-right: 0px;
+    float: left;
+}
+
+#venta {
+    margin-top: 150px;
+    margin-left: 15%;
+    margin-bottom: 100px;    
 }

@@ -30,28 +30,28 @@
          <div class="container-fluid" role="group" aria-label="Basic example">
            <div class="row consolasMenu">
                 <div class="col-sm ">
-                    <a class="nav-item nav-link active texto" href="Home.aspx">Inicio</a>
+                    <a class="nav-item nav-link active texto aMenu " href="Home.aspx">Inicio</a>
                     
                 </div>
                <div class="col-sm">
 
-                   <a class="nav-item nav-link texto" href="Preventa.aspx">Preventa</a>
+                   <a class="nav-item nav-link texto aMenu" href="Preventa.aspx">Preventa</a>
                     
                 </div>
                <div class="col-sm">
-                   <a class="nav-item nav-link texto" href="#"> Xbox</a>
+                   <a class="nav-item nav-link texto aMenu" href="#"> Xbox</a>
                    
                 </div>
                <div class="col-sm">
-                   <a class="nav-item nav-link texto" href="#"> Ps4</a>
+                   <a class="nav-item nav-link texto aMenu" href="#"> Ps4</a>
                    
                 </div>
                <div class="col-sm">
-                   <a class="nav-item nav-link texto" href="#">Nintendo</a>
+                   <a class="nav-item nav-link texto aMenu" href="#">Nintendo</a>
                     
                 </div>
                <div class="col-sm">
-                  <a class="nav-item nav-link texto" href="Contacto.aspx">Contacto</a>
+                  <a class="nav-item nav-link texto aMenu" href="Contacto.aspx">Contacto</a>
               
                   
                 </div>
@@ -133,7 +133,7 @@
 
             <asp:HyperLink ID="face" runat="server" style ="color:white; float:right"
                 NavigateUrl="#">
-                FaceBook
+                Facebook
             </asp:HyperLink>
                 
             </div>

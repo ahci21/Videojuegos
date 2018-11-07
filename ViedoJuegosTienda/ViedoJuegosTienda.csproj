@@ -75,6 +75,9 @@
     <Content Include="css\bootstrap.css.map" />
     <Content Include="css\bootstrap.min.css.map" />
     <Content Include="css\colores.css" />
+    <Content Include="Img\Portadas\cover.jpg" />
+    <Content Include="Img\Portadas\cover2.jpg" />
+    <Content Include="Img\Portadas\cover3.jpg" />
     <Content Include="js\bootstrap.bundle.js.map" />
     <Content Include="js\bootstrap.bundle.min.js.map" />
     <Content Include="js\bootstrap.js.map" />

@@ -30,46 +30,228 @@
         
       <div class="container-fluid" role="group" aria-label="Basic example">
            <div class="row consolasMenu">
-                <div class="col-sm ">
-                    <a class="nav-item nav-link active texto" href="Home.aspx">Inicio</a>
+                  <div class="col-sm ">
+                    <a class="nav-item nav-link active texto aMenu " href="Home.aspx">Inicio</a>
                     
                 </div>
                <div class="col-sm">
 
-                   <a class="nav-item nav-link texto" href="Preventa.aspx">Preventa</a>
+                   <a class="nav-item nav-link texto aMenu" href="Preventa.aspx">Preventa</a>
                     
                 </div>
                <div class="col-sm">
-                   <a class="nav-item nav-link texto" href="#"> Xbox</a>
+                   <a class="nav-item nav-link texto aMenu" href="#"> Xbox</a>
                    
                 </div>
                <div class="col-sm">
-                   <a class="nav-item nav-link texto" href="#"> Ps4</a>
+                   <a class="nav-item nav-link texto aMenu" href="#"> Ps4</a>
                    
                 </div>
                <div class="col-sm">
-                   <a class="nav-item nav-link texto" href="#">Nintendo</a>
+                   <a class="nav-item nav-link texto aMenu" href="#">Nintendo</a>
                     
                 </div>
                <div class="col-sm">
-                  <a class="nav-item nav-link texto" href="Contacto.aspx">Contacto</a>
-                   
-
+                  <a class="nav-item nav-link texto aMenu" href="Contacto.aspx">Contacto</a>
+              
+                  
                 </div>
             </div>
         </div>
 
+
         <%--apartados--%> 
-        <div class="container">
-          <div class="row">
-            <div class="col">Column</div>
-            <div class="col">Column</div>
-            <div class="w-100"></div>
-            <div class="col">Column</div>
-            <div class="col">Column</div>
-          </div>
+        <div class="preventa">
+           <table class="table table-hover table-bordered tablas ">
+              <thead id="cabecera">
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Titulo</th>
+                  <th scope="col">Descripción</th>
+                  <th scope="col">Precio</th>
+                  <th scope="col">Acciones</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Doom</td>
+                  <td>Matar Monstruos, Yeah!</td>
+                  <td>$666.00</td>
+                  <td>
+                      <input type="button" class="btn btn-danger" name="eliminar" value="Eliminar" />
+                  </td>
+                </tr>
+                 <tr>
+                  <th scope="row">2</th>
+                  <td>Doom 2 : Hell on Earth</td>
+                  <td>Matar Monstruos 2, Yeah!</td>
+                  <td>$666.00</td>
+                  <td>
+                      <input type="button" class="btn btn-danger" name="eliminar" value="Eliminar" />
+                  </td>
+                </tr>
+                  <tr>
+                  <th scope="row"></th>
+                  <td></td>
+                  <td>Total: </td>
+                  <td>$1332.00</td>
+                  <td></td>
+                </tr>
+              </tbody>
+            </table>
+
+            <asp:Button ID="venta" class="btn btn-outline-secondary" runat="server" OnClick="venta_Click" Text="Aceptar" />
+        
+
         </div>
 
+        
+
+        <%-- Cositaaaaas --%>
+        <div id="recomendados">
+            <h3  class="bg-light">Quizá te interese:</h3>
+             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row">
+                      <div class="card col-sm" style="width: 18rem;">
+                          <img class="card-img-top" src="Img/Portadas/cover.jpg" alt="Card image cap">
+                          <div class="card-body">
+                            <p class="card-text">Precio: $666.00</p>
+                          </div>
+                       </div>
+                      <div class="card col-sm" style="width: 18rem;">
+                          <img class="card-img-top" src="Img/Portadas/cover.jpg" alt="Card image cap">
+                          <div class="card-body">
+                            <p class="card-text">Precio: $666.00</p>
+                          </div>
+                       </div>
+                      <div class="card col-sm" style="width: 18rem;">
+                          <img class="card-img-top" src="Img/Portadas/cover.jpg" alt="Card image cap">
+                          <div class="card-body">
+                            <p class="card-text">Precio: $666.00</p>
+                          </div>
+                       </div>
+                      <div class="card col-sm" style="width: 18rem;">
+                          <img class="card-img-top" src="Img/Portadas/cover.jpg" alt="Card image cap">
+                          <div class="card-body">
+                            <p class="card-text">Precio: $666.00</p>
+                          </div>
+                       </div>
+                      <div class="card col-sm" style="width: 18rem;">
+                          <img class="card-img-top" src="Img/Portadas/cover.jpg" alt="Card image cap">
+                          <div class="card-body">
+                            <p class="card-text">Precio: $666.00</p>
+                          </div>
+                       </div>
+                      <div class="card col-sm" style="width: 18rem;">
+                          <img class="card-img-top" src="Img/Portadas/cover.jpg" alt="Card image cap">
+                          <div class="card-body">
+                            <p class="card-text">Precio: $666.00</p>
+                          </div>
+                       </div>
+
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row">
+                      <div class="card col-sm" style="width: 18rem;">
+                          <img class="card-img-top" src="Img/Portadas/cover2.jpg" alt="Card image cap">
+                          <div class="card-body">
+                            <p class="card-text">Precio: $599.00</p>
+                          </div>
+                       </div>
+                      <div class="card col-sm" style="width: 18rem;">
+                          <img class="card-img-top" src="Img/Portadas/cover2.jpg" alt="Card image cap">
+                          <div class="card-body">
+                            <p class="card-text">Precio: $599.00</p>
+                          </div>
+                       </div>
+                      <div class="card col-sm" style="width: 18rem;">
+                          <img class="card-img-top" src="Img/Portadas/cover2.jpg" alt="Card image cap">
+                          <div class="card-body">
+                            <p class="card-text">Precio: $599.00</p>
+                          </div>
+                       </div>
+                      <div class="card col-sm" style="width: 18rem;">
+                          <img class="card-img-top" src="Img/Portadas/cover2.jpg" alt="Card image cap">
+                          <div class="card-body">
+                            <p class="card-text">Precio: $599.00</p>
+                          </div>
+                       </div>
+                      <div class="card col-sm" style="width: 18rem;">
+                          <img class="card-img-top" src="Img/Portadas/cover2.jpg" alt="Card image cap">
+                          <div class="card-body">
+                            <p class="card-text">Precio: $599.00</p>
+                          </div>
+                       </div>
+                      <div class="card col-sm" style="width: 18rem;">
+                          <img class="card-img-top" src="Img/Portadas/cover2.jpg" alt="Card image cap">
+                          <div class="card-body">
+                            <p class="card-text">Precio: $599.00</p>
+                          </div>
+                       </div>
+
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row">
+                      <div class="card col-sm" style="width: 18rem;">
+                          <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap">
+                          <div class="card-body">
+                            <p class="card-text">Precio: $199.00</p>
+                          </div>
+                       </div>
+                      <div class="card col-sm" style="width: 18rem;">
+                          <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap">
+                          <div class="card-body">
+                            <p class="card-text">Precio: $199.00</p>
+                          </div>
+                       </div>
+                      <div class="card col-sm" style="width: 18rem;">
+                          <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap">
+                          <div class="card-body">
+                            <p class="card-text">Precio: $199.00</p>
+                          </div>
+                       </div>
+                      <div class="card col-sm" style="width: 18rem;">
+                          <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap">
+                          <div class="card-body">
+                            <p class="card-text">Precio: $199.00</p>
+                          </div>
+                       </div>
+                      <div class="card col-sm" style="width: 18rem;">
+                          <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap">
+                          <div class="card-body">
+                            <p class="card-text">Precio: $199.00</p>
+                          </div>
+                       </div>
+                      <div class="card col-sm" style="width: 18rem;">
+                          <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap">
+                          <div class="card-body">
+                            <p class="card-text">Precio: $199.00</p>
+                          </div>
+                       </div>
+
+                  </div>
+                </div>
+              </div>
+              <a class="carousel-control-prev recoControl" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon icono" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next recoControl" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon icono" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+        </div>
 
          <%--Footer--%>
         <div class="p-3 mb-2 bg-dark text-white">
@@ -112,7 +294,7 @@
 
             <asp:HyperLink ID="face" runat="server" style ="color:white; float:right"
                 NavigateUrl="#">
-                FaceBook
+                Facebook
             </asp:HyperLink>
                 
             </div>
