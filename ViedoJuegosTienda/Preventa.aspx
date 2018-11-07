@@ -265,7 +265,7 @@
 
                 
                 <asp:HyperLink ID="contacto" runat="server" style ="color:white; margin-left:5%; margin-right:1%" 
-                    NavigateUrl="#">
+                    NavigateUrl="Contacto.aspx">
                     Contacto
                 </asp:HyperLink>
 
