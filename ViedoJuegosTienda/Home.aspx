@@ -11,10 +11,17 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     <link href="css/bootstrap.min.css" rel="stylesheet" />
     <link href="css/colores.css" rel="stylesheet" />
-    
-   
 
 </head>
+    <script>
+        /*$(document).ready(function () {
+            $("#navNintendo").click(function () {
+                $('html,body').animate({
+                    scrollTop: $("#hola").offset().top
+                },2000);
+            });
+        });*/
+    </script>
 <body>
 
 
@@ -22,7 +29,7 @@
 
         <%--Search Bar--%>
         <nav class="navbar navbar-light bg-light">
-          <a class="navbar-brand">Games Tec</a>
+          <a id="hola" class="navbar-brand">Games Tec</a>
           <div class="form-inline">
             <input class="form-control mr-sm-2" type="search" placeholder="Busca tu juego!" aria-label="Search">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
@@ -99,44 +106,175 @@
         <%--Menu Consolas--%>
           <ul class="nav nav-tabs">
           <li class="nav-item">
-            <a class="nav-link active" href="#">Consolas</a>
+            <a class="nav-link" href="#carConsolas">Consolas</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Nintendo</a>
+            <a class="nav-link" href="#carNintendo">Nintendo</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Xbox</a>
+            <a class="nav-link" href="#carXbox">Xbox</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">PS4</a>
+            <a class="nav-link" href="#carPlaystation">PS4</a>
           </li>
           
         </ul>
-        <%--xbox (JUEGOS)--%>
-        <div class="card" style="width: 18rem;">
-          <img class="card-img-top" src="Img/Portadas/cover2.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Halo</h5>
-            <p class="card-text">Mata!.</p>
-            <a href="Preventa.aspx" class="btn btn-primary">Aparta ya!</a>
-          </div>
-        </div>
-
-        <div class="card" style="width: 18rem;">
-          <img class="card-img-top" src="Img/Consolas/consolaXbox.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Xbox One</h5>
-            <p class="card-text">Mata!.</p>
-            <a href="Preventa.aspx" class="btn btn-primary">Aparta ya!</a>
-          </div>
-        </div>
-
+<br />
+<br />
         <%--Juegos--%>
-         
-         <%-- Recomendaciones --%>
-        <div id="recomendados">
-            <h3  class="bg-light">Juegos:</h3>
-             <div id="carusel" class="carousel slide" data-ride="carousel">
+        
+        <%-- Consolas --%>
+        <div id="carConsolas" class="card">
+            <h3  class="bg-light">Consolas recomendadas:</h3>
+             <div class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carusel" data-slide-to="0" class="active"></li>
+                <li data-target="#carusel" data-slide-to="1"></li>
+                <li data-target="#carusel" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                  <div class="carousel-item active">
+                      <div class="row">
+                          <div class="card col-sm" style="width: 18rem;">
+                              <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap" />
+                              <div class="card-body">
+                                  <p class="card-text">Precio: $666.00</p>
+                              </div>
+                          </div>
+                          <div class="card col-sm" style="width: 18rem;">
+                              <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap" />
+                              <div class="card-body">
+                                  <p class="card-text">Precio: $666.00</p>
+                              </div>
+                          </div>
+                          <div class="card col-sm" style="width: 18rem;">
+                              <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap" />
+                              <div class="card-body">
+                                  <p class="card-text">Precio: $666.00</p>
+                              </div>
+                          </div>
+                          <div class="card col-sm" style="width: 18rem;">
+                              <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap" />
+                              <div class="card-body">
+                                  <p class="card-text">Precio: $666.00</p>
+                              </div>
+                          </div>
+                          <div class="card col-sm" style="width: 18rem;">
+                              <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap" />
+                              <div class="card-body">
+                                  <p class="card-text">Precio: $666.00</p>
+                              </div>
+                          </div>
+                          <div class="card col-sm" style="width: 18rem;">
+                              <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap" />
+                              <div class="card-body">
+                                  <p class="card-text">Precio: $666.00</p>
+                              </div>
+                          </div>
+
+                      </div>
+                  </div>
+                <div class="carousel-item">
+                  <div class="row">
+                      <div class="card col-sm" style="width: 18rem;">
+                          <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap"/>
+                          <div class="card-body">
+                            <p class="card-text">Precio: $599.00</p>
+                          </div>
+                       </div>
+                      <div class="card col-sm" style="width: 18rem;">
+                          <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap"/>
+                          <div class="card-body">
+                            <p class="card-text">Precio: $599.00</p>
+                          </div>
+                       </div>
+                      <div class="card col-sm" style="width: 18rem;">
+                          <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap"/>
+                          <div class="card-body">
+                            <p class="card-text">Precio: $599.00</p>
+                          </div>
+                       </div>
+                      <div class="card col-sm" style="width: 18rem;">
+                          <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap"/>
+                          <div class="card-body">
+                            <p class="card-text">Precio: $599.00</p>
+                          </div>
+                       </div>
+                      <div class="card col-sm" style="width: 18rem;">
+                          <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap"/>
+                          <div class="card-body">
+                            <p class="card-text">Precio: $599.00</p>
+                          </div>
+                       </div>
+                      <div class="card col-sm" style="width: 18rem;">
+                          <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap"/>
+                          <div class="card-body">
+                            <p class="card-text">Precio: $599.00</p>
+                          </div>
+                       </div>
+
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row">
+                      <div class="card col-sm" style="width: 18rem;">
+                          <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap"/>
+                          <div class="card-body">
+                            <p class="card-text">Precio: $199.00</p>
+                          </div>
+                       </div>
+                      <div class="card col-sm" style="width: 18rem;">
+                          <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap"/>
+                          <div class="card-body">
+                            <p class="card-text">Precio: $199.00</p>
+                          </div>
+                       </div>
+                      <div class="card col-sm" style="width: 18rem;">
+                          <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap"/>
+                          <div class="card-body">
+                            <p class="card-text">Precio: $199.00</p>
+                          </div>
+                       </div>
+                      <div class="card col-sm" style="width: 18rem;">
+                          <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap"/>
+                          <div class="card-body">
+                            <p class="card-text">Precio: $199.00</p>
+                          </div>
+                       </div>
+                      <div class="card col-sm" style="width: 18rem;">
+                          <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap"/>
+                          <div class="card-body">
+                            <p class="card-text">Precio: $199.00</p>
+                          </div>
+                       </div>
+                      <div class="card col-sm" style="width: 18rem;">
+                          <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap"/>
+                          <div class="card-body">
+                            <p class="card-text">Precio: $199.00</p>
+                          </div>
+                       </div>
+
+                  </div>
+                </div>
+              </div>
+              <a class="carousel-control-prev recoControl" href="#carusel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon icono" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next recoControl" href="#carusel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon icono" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+        </div>
+
+<br />
+<br />
+
+        <%-- Xbox --%>
+        <div id="carXbox" class="card">
+            <h3  class="bg-light">Juegos de Xbox recomendados:</h3>
+             <div class="carousel slide" data-ride="carousel">
               <ol class="carousel-indicators">
                 <li data-target="#carusel" data-slide-to="0" class="active"></li>
                 <li data-target="#carusel" data-slide-to="1"></li>
@@ -146,37 +284,37 @@
                 <div class="carousel-item active">
                   <div class="row">
                       <div class="card col-sm" style="width: 18rem;">
-                          <img class="card-img-top" src="Img/Portadas/cover.jpg" alt="Card image cap"/>
+                          <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap"/>
                           <div class="card-body">
                             <p class="card-text">Precio: $666.00</p>
                           </div>
                        </div>
                       <div class="card col-sm" style="width: 18rem;">
-                          <img class="card-img-top" src="Img/Portadas/cover.jpg" alt="Card image cap"/>
+                          <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap"/>
                           <div class="card-body">
                             <p class="card-text">Precio: $666.00</p>
                           </div>
                        </div>
                       <div class="card col-sm" style="width: 18rem;">
-                          <img class="card-img-top" src="Img/Portadas/cover.jpg" alt="Card image cap"/>
+                          <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap"/>
                           <div class="card-body">
                             <p class="card-text">Precio: $666.00</p>
                           </div>
                        </div>
                       <div class="card col-sm" style="width: 18rem;">
-                          <img class="card-img-top" src="Img/Portadas/cover.jpg" alt="Card image cap"/>
+                          <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap"/>
                           <div class="card-body">
                             <p class="card-text">Precio: $666.00</p>
                           </div>
                        </div>
                       <div class="card col-sm" style="width: 18rem;">
-                          <img class="card-img-top" src="Img/Portadas/cover.jpg" alt="Card image cap"/>
+                          <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap"/>
                           <div class="card-body">
                             <p class="card-text">Precio: $666.00</p>
                           </div>
                        </div>
                       <div class="card col-sm" style="width: 18rem;">
-                          <img class="card-img-top" src="Img/Portadas/cover.jpg" alt="Card image cap"/>
+                          <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap"/>
                           <div class="card-body">
                             <p class="card-text">Precio: $666.00</p>
                           </div>
@@ -187,37 +325,333 @@
                 <div class="carousel-item">
                   <div class="row">
                       <div class="card col-sm" style="width: 18rem;">
-                          <img class="card-img-top" src="Img/Portadas/cover2.jpg" alt="Card image cap"/>
+                          <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap"/>
                           <div class="card-body">
                             <p class="card-text">Precio: $599.00</p>
                           </div>
                        </div>
                       <div class="card col-sm" style="width: 18rem;">
-                          <img class="card-img-top" src="Img/Portadas/cover2.jpg" alt="Card image cap"/>
+                          <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap"/>
                           <div class="card-body">
                             <p class="card-text">Precio: $599.00</p>
                           </div>
                        </div>
                       <div class="card col-sm" style="width: 18rem;">
-                          <img class="card-img-top" src="Img/Portadas/cover2.jpg" alt="Card image cap"/>
+                          <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap"/>
                           <div class="card-body">
                             <p class="card-text">Precio: $599.00</p>
                           </div>
                        </div>
                       <div class="card col-sm" style="width: 18rem;">
-                          <img class="card-img-top" src="Img/Portadas/cover2.jpg" alt="Card image cap"/>
+                          <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap"/>
                           <div class="card-body">
                             <p class="card-text">Precio: $599.00</p>
                           </div>
                        </div>
                       <div class="card col-sm" style="width: 18rem;">
-                          <img class="card-img-top" src="Img/Portadas/cover2.jpg" alt="Card image cap"/>
+                          <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap"/>
                           <div class="card-body">
                             <p class="card-text">Precio: $599.00</p>
                           </div>
                        </div>
                       <div class="card col-sm" style="width: 18rem;">
-                          <img class="card-img-top" src="Img/Portadas/cover2.jpg" alt="Card image cap"/>
+                          <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap"/>
+                          <div class="card-body">
+                            <p class="card-text">Precio: $599.00</p>
+                          </div>
+                       </div>
+
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row">
+                      <div class="card col-sm" style="width: 18rem;">
+                          <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap"/>
+                          <div class="card-body">
+                            <p class="card-text">Precio: $199.00</p>
+                          </div>
+                       </div>
+                      <div class="card col-sm" style="width: 18rem;">
+                          <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap"/>
+                          <div class="card-body">
+                            <p class="card-text">Precio: $199.00</p>
+                          </div>
+                       </div>
+                      <div class="card col-sm" style="width: 18rem;">
+                          <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap"/>
+                          <div class="card-body">
+                            <p class="card-text">Precio: $199.00</p>
+                          </div>
+                       </div>
+                      <div class="card col-sm" style="width: 18rem;">
+                          <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap"/>
+                          <div class="card-body">
+                            <p class="card-text">Precio: $199.00</p>
+                          </div>
+                       </div>
+                      <div class="card col-sm" style="width: 18rem;">
+                          <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap"/>
+                          <div class="card-body">
+                            <p class="card-text">Precio: $199.00</p>
+                          </div>
+                       </div>
+                      <div class="card col-sm" style="width: 18rem;">
+                          <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap"/>
+                          <div class="card-body">
+                            <p class="card-text">Precio: $199.00</p>
+                          </div>
+                       </div>
+
+                  </div>
+                </div>
+              </div>
+              <a class="carousel-control-prev recoControl" href="#carusel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon icono" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next recoControl" href="#carusel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon icono" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+        </div>
+
+<br />
+<br />
+
+        <%-- PlayStation --%>
+        <div id="carPlaystation" class="card">
+            <h3  class="bg-light">Juegos de PS4 recomendados:</h3>
+             <div class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carusel" data-slide-to="0" class="active"></li>
+                <li data-target="#carusel" data-slide-to="1"></li>
+                <li data-target="#carusel" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row">
+                      <div class="card col-sm" style="width: 18rem;">
+                          <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap"/>
+                          <div class="card-body">
+                            <p class="card-text">Precio: $666.00</p>
+                          </div>
+                       </div>
+                      <div class="card col-sm" style="width: 18rem;">
+                          <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap"/>
+                          <div class="card-body">
+                            <p class="card-text">Precio: $666.00</p>
+                          </div>
+                       </div>
+                      <div class="card col-sm" style="width: 18rem;">
+                          <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap"/>
+                          <div class="card-body">
+                            <p class="card-text">Precio: $666.00</p>
+                          </div>
+                       </div>
+                      <div class="card col-sm" style="width: 18rem;">
+                          <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap"/>
+                          <div class="card-body">
+                            <p class="card-text">Precio: $666.00</p>
+                          </div>
+                       </div>
+                      <div class="card col-sm" style="width: 18rem;">
+                          <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap"/>
+                          <div class="card-body">
+                            <p class="card-text">Precio: $666.00</p>
+                          </div>
+                       </div>
+                      <div class="card col-sm" style="width: 18rem;">
+                          <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap"/>
+                          <div class="card-body">
+                            <p class="card-text">Precio: $666.00</p>
+                          </div>
+                       </div>
+
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row">
+                      <div class="card col-sm" style="width: 18rem;">
+                          <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap"/>
+                          <div class="card-body">
+                            <p class="card-text">Precio: $599.00</p>
+                          </div>
+                       </div>
+                      <div class="card col-sm" style="width: 18rem;">
+                          <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap"/>
+                          <div class="card-body">
+                            <p class="card-text">Precio: $599.00</p>
+                          </div>
+                       </div>
+                      <div class="card col-sm" style="width: 18rem;">
+                          <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap"/>
+                          <div class="card-body">
+                            <p class="card-text">Precio: $599.00</p>
+                          </div>
+                       </div>
+                      <div class="card col-sm" style="width: 18rem;">
+                          <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap"/>
+                          <div class="card-body">
+                            <p class="card-text">Precio: $599.00</p>
+                          </div>
+                       </div>
+                      <div class="card col-sm" style="width: 18rem;">
+                          <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap"/>
+                          <div class="card-body">
+                            <p class="card-text">Precio: $599.00</p>
+                          </div>
+                       </div>
+                      <div class="card col-sm" style="width: 18rem;">
+                          <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap"/>
+                          <div class="card-body">
+                            <p class="card-text">Precio: $599.00</p>
+                          </div>
+                       </div>
+
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row">
+                      <div class="card col-sm" style="width: 18rem;">
+                          <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap"/>
+                          <div class="card-body">
+                            <p class="card-text">Precio: $199.00</p>
+                          </div>
+                       </div>
+                      <div class="card col-sm" style="width: 18rem;">
+                          <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap"/>
+                          <div class="card-body">
+                            <p class="card-text">Precio: $199.00</p>
+                          </div>
+                       </div>
+                      <div class="card col-sm" style="width: 18rem;">
+                          <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap"/>
+                          <div class="card-body">
+                            <p class="card-text">Precio: $199.00</p>
+                          </div>
+                       </div>
+                      <div class="card col-sm" style="width: 18rem;">
+                          <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap"/>
+                          <div class="card-body">
+                            <p class="card-text">Precio: $199.00</p>
+                          </div>
+                       </div>
+                      <div class="card col-sm" style="width: 18rem;">
+                          <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap"/>
+                          <div class="card-body">
+                            <p class="card-text">Precio: $199.00</p>
+                          </div>
+                       </div>
+                      <div class="card col-sm" style="width: 18rem;">
+                          <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap"/>
+                          <div class="card-body">
+                            <p class="card-text">Precio: $199.00</p>
+                          </div>
+                       </div>
+
+                  </div>
+                </div>
+              </div>
+              <a class="carousel-control-prev recoControl" href="#carusel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon icono" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next recoControl" href="#carusel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon icono" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+        </div>
+
+<br />       
+<br />
+
+        <%-- Nintendo --%>
+        <div id="carNintendo" class="card">
+            <h3  class="bg-light">Juegos de Nintendo recomendados:</h3>
+             <div class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carusel" data-slide-to="0" class="active"></li>
+                <li data-target="#carusel" data-slide-to="1"></li>
+                <li data-target="#carusel" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row">
+                      <div class="card col-sm" style="width: 18rem;">
+                          <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap"/>
+                          <div class="card-body">
+                            <p class="card-text">Precio: $666.00</p>
+                          </div>
+                       </div>
+                      <div class="card col-sm" style="width: 18rem;">
+                          <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap"/>
+                          <div class="card-body">
+                            <p class="card-text">Precio: $666.00</p>
+                          </div>
+                       </div>
+                      <div class="card col-sm" style="width: 18rem;">
+                          <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap"/>
+                          <div class="card-body">
+                            <p class="card-text">Precio: $666.00</p>
+                          </div>
+                       </div>
+                      <div class="card col-sm" style="width: 18rem;">
+                          <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap"/>
+                          <div class="card-body">
+                            <p class="card-text">Precio: $666.00</p>
+                          </div>
+                       </div>
+                      <div class="card col-sm" style="width: 18rem;">
+                          <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap"/>
+                          <div class="card-body">
+                            <p class="card-text">Precio: $666.00</p>
+                          </div>
+                       </div>
+                      <div class="card col-sm" style="width: 18rem;">
+                          <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap"/>
+                          <div class="card-body">
+                            <p class="card-text">Precio: $666.00</p>
+                          </div>
+                       </div>
+
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row">
+                      <div class="card col-sm" style="width: 18rem;">
+                          <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap"/>
+                          <div class="card-body">
+                            <p class="card-text">Precio: $599.00</p>
+                          </div>
+                       </div>
+                      <div class="card col-sm" style="width: 18rem;">
+                          <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap"/>
+                          <div class="card-body">
+                            <p class="card-text">Precio: $599.00</p>
+                          </div>
+                       </div>
+                      <div class="card col-sm" style="width: 18rem;">
+                          <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap"/>
+                          <div class="card-body">
+                            <p class="card-text">Precio: $599.00</p>
+                          </div>
+                       </div>
+                      <div class="card col-sm" style="width: 18rem;">
+                          <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap"/>
+                          <div class="card-body">
+                            <p class="card-text">Precio: $599.00</p>
+                          </div>
+                       </div>
+                      <div class="card col-sm" style="width: 18rem;">
+                          <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap"/>
+                          <div class="card-body">
+                            <p class="card-text">Precio: $599.00</p>
+                          </div>
+                       </div>
+                      <div class="card col-sm" style="width: 18rem;">
+                          <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap"/>
                           <div class="card-body">
                             <p class="card-text">Precio: $599.00</p>
                           </div>
