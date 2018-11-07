@@ -9,8 +9,10 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    
     <link href="css/bootstrap.min.css" rel="stylesheet" />
     <link href="css/colores.css" rel="stylesheet" />
+    
     
 </head>
 <body>
@@ -26,15 +28,15 @@
 
         <%--Nav Bar--%>
         
-       <div class="container-fluid" role="group" aria-label="Basic example">
+      <div class="container-fluid" role="group" aria-label="Basic example">
            <div class="row consolasMenu">
                 <div class="col-sm ">
-                    <a class="nav-item nav-link active texto" href="#">Inicio</a>
+                    <a class="nav-item nav-link active texto" href="Home.aspx">Inicio</a>
                     
                 </div>
                <div class="col-sm">
 
-                   <a class="nav-item nav-link texto" href="#">Preventa</a>
+                   <a class="nav-item nav-link texto" href="Preventa.aspx">Preventa</a>
                     
                 </div>
                <div class="col-sm">
@@ -50,10 +52,22 @@
                     
                 </div>
                <div class="col-sm">
-                  <a class="nav-item nav-link texto" href="#">Contacto</a>
+                  <a class="nav-item nav-link texto" href="Contacto.aspx">Contacto</a>
                    
+
                 </div>
             </div>
+        </div>
+
+        <%--apartados--%> 
+        <div class="container">
+          <div class="row">
+            <div class="col">Column</div>
+            <div class="col">Column</div>
+            <div class="w-100"></div>
+            <div class="col">Column</div>
+            <div class="col">Column</div>
+          </div>
         </div>
 
 

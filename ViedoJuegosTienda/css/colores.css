@@ -16,18 +16,25 @@
 }*/
 .cajaContacto{
     width: 700px;
-    height: 500px;
+    height: 525px;
     margin-left: 23%;
     margin-right 25%;
     margin-top:30px;
+    margin-bottom: 100px;
 }
 #enviar{
+    margin-top: 20px;
     font-size:medium;
     margin-left:25%;
     margin-right:8%;
 }
 #cancelar{
+    margin-top: 20px;
     font-size:small;
     margin-left:20%;
     margin-right:8%;
+}
+
+.g-recaptcha {
+    padding-left: 200px;
 }

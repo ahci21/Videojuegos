@@ -34,12 +34,12 @@
        <div class="container-fluid" role="group" aria-label="Basic example">
            <div class="row consolasMenu">
                 <div class="col-sm ">
-                    <a class="nav-item nav-link active texto" href="#">Inicio</a>
+                    <a class="nav-item nav-link active texto" href="Home.aspx">Inicio</a>
                     
                 </div>
                <div class="col-sm">
 
-                   <a class="nav-item nav-link texto" href="#">Preventa</a>
+                   <a class="nav-item nav-link texto" href="Preventa.aspx">Preventa</a>
                     
                 </div>
                <div class="col-sm">
@@ -55,7 +55,7 @@
                     
                 </div>
                <div class="col-sm">
-                  <a class="nav-item nav-link texto" href="#">Contacto</a>
+                  <a class="nav-item nav-link texto" href="Contacto.aspx">Contacto</a>
                    
                 </div>
             </div>
@@ -108,6 +108,8 @@
           </li>
           
         </ul>
+
+        
 
         <%--Juegos--%>
             <div class="card-deck">
