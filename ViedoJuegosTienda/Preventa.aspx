@@ -25,6 +25,7 @@
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
             <button onclick="location.href='Login.aspx'" class="btn btn-outline-success my-2 my-sm-0" type="button">Iniciar Sesión</button>
             <button class="btn btn-outline-success my-2 my-sm-0" type="button"  onclick="location.href='Preventa.aspx'" >Carrito</button>
+               <button class="btn btn-outline-success my-2 my-sm-0" type="button"  onclick="location.href='ConfiguracionCuenta.aspx'" >Configuraciones</button>
           </div>
         </nav>          
 
@@ -258,10 +259,6 @@
            
                 
  
-                <asp:HyperLink ID="derechos" runat="server" style ="color:white; margin-left:2%; margin-right:1%"  
-                    NavigateUrl="~/derechosdeautor/derechos_autor.html">
-                    Derechos de autor
-                 </asp:HyperLink>
 
                 
                 <asp:HyperLink ID="contacto" runat="server" style ="color:white; margin-left:5%; margin-right:1%" 

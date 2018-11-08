@@ -141,10 +141,6 @@
            
                 
  
-                <asp:HyperLink ID="derechos" runat="server" style ="color:white; margin-left:2%; margin-right:1%"  
-                    NavigateUrl="~/derechosdeautor/derechos_autor.html">
-                    Derechos de autor
-                 </asp:HyperLink>
 
                 
                 <asp:HyperLink ID="contacto" runat="server" style ="color:white; margin-left:5%; margin-right:1%" 
