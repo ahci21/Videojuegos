@@ -267,7 +267,7 @@
                 </asp:HyperLink>
 
                 <asp:HyperLink ID="miCuenta" runat="server" style ="color:white; margin-left:5%; margin-right:1%"
-                    NavigateUrl="#">
+                    NavigateUrl="ConfiguracionCuenta.aspx">
                     Cuenta
                 </asp:HyperLink>
   

@@ -34,16 +34,16 @@
                     
                 </div>
               
-               <div class="col-sm">
-                   <a class="nav-item nav-link texto aMenu" href="#"> Xbox</a>
+                <div class="col-sm">
+                   <a class="nav-item nav-link texto aMenu" href="Home.aspx#carXbox"> Xbox</a>
                    
                 </div>
                <div class="col-sm">
-                   <a class="nav-item nav-link texto aMenu" href="#"> Ps4</a>
+                   <a class="nav-item nav-link texto aMenu" href="Home.aspx#carPlaystation"> Ps4</a>
                    
                 </div>
                <div class="col-sm">
-                   <a class="nav-item nav-link texto aMenu" href="#">Nintendo</a>
+                   <a class="nav-item nav-link texto aMenu" href="Home.aspx#carNintendo">Nintendo</a>
                     
                 </div>
                 
@@ -97,8 +97,8 @@
                           </div>
           
                         </form>
-                        <asp:Button ID="confAceptar" class="btn btn-outline-secondary" runat="server" OnClick="confAceptar_Click" Text="Aceptar" />
-                        <asp:Button ID="confCancelar" class="btn btn-outline-secondary" runat="server" OnClick="confCancelar_Click" Text="Cancelar" />
+                        <%--<asp:Button ID="confAceptar" class="btn btn-outline-secondary" runat="server" OnClick="confAceptar_Click" Text="Aceptar" />
+                        <asp:Button ID="confCancelar" class="btn btn-outline-secondary" runat="server" OnClick="confCancelar_Click" Text="Cancelar" />--%>
                     </div>
 
               </div>
@@ -149,7 +149,7 @@
                 </asp:HyperLink>
 
                 <asp:HyperLink ID="miCuenta" runat="server" style ="color:white; margin-left:5%; margin-right:1%"
-                    NavigateUrl="#">
+                    NavigateUrl="ConfiguracionCuenta.aspx">
                     Cuenta
                 </asp:HyperLink>
   

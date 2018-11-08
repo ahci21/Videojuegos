@@ -16,12 +16,12 @@ namespace ViedoJuegosTienda
 
         protected void confAceptar_Click(object sender, EventArgs e)
         {
-
+            Response.Redirect("Home.aspx");
         }
 
         protected void confCancelar_Click(object sender, EventArgs e)
         {
-
+            Response.Redirect("Home.aspx");
         }
 
         protected void confContra_Click(object sender, EventArgs e)
