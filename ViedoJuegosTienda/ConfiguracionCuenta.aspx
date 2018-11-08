@@ -104,19 +104,17 @@
                   <form class="form-inline">
                       <div class="form-group">
                         <label for="inputPassword">Password</label>
-                        <input type="password" class="form-control mx-sm-3" size="8" aria-describedby="passwordHelpInline">
+                        <input id="pass1" type="password" class="form-control mx-sm-3" size="32" aria-describedby="passwordHelpInline" requiered>
                         <small id="passwordHelpInline" class="text-muted">
-                          Debe ser de 8 caracteres maximo.
+                          Debe ser de 8 caracteres mínimo y máximo 32 caracteres.
                         </small>
                       </div>
                     </form>
                     <form class="form-inline">
                       <div class="form-group">
                         <label for="inputPassword2">Password</label>
-                        <input type="password" id="inputPassword2" class="form-control mx-sm-3" size="8" aria-describedby="passwordHelpInline">
-                        <small id="passwordHelpInline1" class="text-muted">
-                          Debe ser de 8 caracteres maximo.
-                        </small>
+                        <input id="pass2" type="password" id="inputPassword2" class="form-control mx-sm-3" size="32" aria-describedby="passwordHelpInline" requiered>
+                        
                       </div>
                     </form>
                 <button type="button"  class="btn btn-outline-secondary" onclick="validarPasswd()">Aceptar</button>
@@ -180,7 +178,25 @@
     </form>
     <script>
         function validarPasswd() {
-            alert("Guanabana");
+
+            var pass1 = document.getElementById("pass1").value;
+            var pass2 = document.getElementById("pass2").value;
+
+            if (pass1.length >= 8) {
+                if (pass2.length >= 8) {
+                    if (pass1 == pass2) {
+                        window.location.href = 'Home.aspx';
+                    } else {
+                        alert("Su contraseña no es igual, Favor de verificar.");
+                    }
+                } else {
+                    alert("Su confirmación es menor a 8 caracteres");
+                }
+
+            } else {
+                alert("Su contraseña es menor a 8 caracteres");
+            }
+            
 
         }
     </script>
