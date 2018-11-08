@@ -16,7 +16,11 @@ namespace ViedoJuegosTienda
 
         protected void enviar_Click(object sender, EventArgs e)
         {
-            Response.Redirect("Enviado.aspx");
+            //Response.Redirect("Enviado.aspx");
+            Label lb = (Label)FindControl("nombre");
+            lb.Text = "New text";
+
+
         }
 
         protected void cancelar_Click(object sender, EventArgs e)

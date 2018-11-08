@@ -64,11 +64,11 @@
 
               <div class="form-group">
                 <label for="exampleFormControlInput1">Nombre</label>
-                <input type="name" class="form-control" id="exampleFormControlInput1" >
+                <input type="name"  class="form-control" id="nombre" >
               </div>
               <div class="form-group">
                 <label for="exampleFormControlInput1">Correo</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="correo@gmail.com">
+                <input type="email" class="form-control" id="email" placeholder="correo@gmail.com" > 
               </div>
               <div class="form-group">
                 <label for="exampleFormControlTextarea1">Comentarios</label>
