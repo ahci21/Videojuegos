@@ -56,7 +56,7 @@ p {
     color: white;
 }
 
-#recomendados {
+.recomendados {
     margin: 25px;
 }
 
@@ -68,7 +68,13 @@ p {
 
 }
 
+.card-img-top {
+    margin-top: 15px;
+}
 
+.nomargen {
+    margin-bottom: 0;
+}
 
 .g-recaptcha {
     padding-left: 200px;

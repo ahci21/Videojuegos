@@ -48,15 +48,15 @@
                 </div>
               
                <div class="col-sm">
-                   <a class="nav-item nav-link texto aMenu" href="#"> Xbox</a>
+                   <a class="nav-item nav-link texto aMenu" href="#carXbox"> Xbox</a>
                    
                 </div>
                <div class="col-sm">
-                   <a class="nav-item nav-link texto aMenu" href="#"> Ps4</a>
+                   <a class="nav-item nav-link texto aMenu" href="#carPlaystation"> Ps4</a>
                    
                 </div>
                <div class="col-sm">
-                   <a class="nav-item nav-link texto aMenu" href="#">Nintendo</a>
+                   <a class="nav-item nav-link texto aMenu" href="#carNintendo">Nintendo</a>
                     
                 </div>
                 <div class="col-sm">
@@ -104,27 +104,150 @@
 
 
         <%--Menu Consolas--%>
-          <ul class="nav nav-tabs">
-          <li class="nav-item">
-            <a class="nav-link" href="#carConsolas">Consolas</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#carNintendo">Nintendo</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#carXbox">Xbox</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#carPlaystation">PS4</a>
-          </li>
-          
-        </ul>
+         <nav>
+          <div class="nav nav-tabs" id="nav-tab" role="tablist">
+            <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Nintendo</a>
+            <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Playstation</a>
+            <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Xbox</a>
+          </div>
+        </nav>
+        <div class="tab-content" id="nav-tabContent">
+          <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+              <div class="recomendados nomargen" >
+              <div class="row">
+                          <div class="card col-sm" style="width: 18rem;">
+                              <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap" />
+                              <div class="card-body">
+                                  <p class="card-text">Precio: $666.00</p>
+                              </div>
+                          </div>
+                          <div class="card col-sm" style="width: 18rem;">
+                              <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap" />
+                              <div class="card-body">
+                                  <p class="card-text">Precio: $666.00</p>
+                              </div>
+                          </div>
+                          <div class="card col-sm" style="width: 18rem;">
+                              <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap" />
+                              <div class="card-body">
+                                  <p class="card-text">Precio: $666.00</p>
+                              </div>
+                          </div>
+                          <div class="card col-sm" style="width: 18rem;">
+                              <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap" />
+                              <div class="card-body">
+                                  <p class="card-text">Precio: $666.00</p>
+                              </div>
+                          </div>
+                          <div class="card col-sm" style="width: 18rem;">
+                              <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap" />
+                              <div class="card-body">
+                                  <p class="card-text">Precio: $666.00</p>
+                              </div>
+                          </div>
+                          <div class="card col-sm" style="width: 18rem;">
+                              <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap" />
+                              <div class="card-body">
+                                  <p class="card-text">Precio: $666.00</p>
+                              </div>
+                          </div>
+
+                 </div>
+              </div>
+          </div>
+          <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+              <div class="recomendados nomargen">
+              <div class="row">
+                          <div class="card col-sm" style="width: 18rem;">
+                              <img class="card-img-top" src="Img/Portadas/cover.jpg" alt="Card image cap" />
+                              <div class="card-body">
+                                  <p class="card-text">Precio: $666.00</p>
+                              </div>
+                          </div>
+                          <div class="card col-sm" style="width: 18rem;">
+                              <img class="card-img-top" src="Img/Portadas/cover.jpg" alt="Card image cap" />
+                              <div class="card-body">
+                                  <p class="card-text">Precio: $666.00</p>
+                              </div>
+                          </div>
+                          <div class="card col-sm" style="width: 18rem;">
+                              <img class="card-img-top" src="Img/Portadas/cover.jpg" alt="Card image cap" />
+                              <div class="card-body">
+                                  <p class="card-text">Precio: $666.00</p>
+                              </div>
+                          </div>
+                          <div class="card col-sm" style="width: 18rem;">
+                              <img class="card-img-top" src="Img/Portadas/cover.jpg" alt="Card image cap" />
+                              <div class="card-body">
+                                  <p class="card-text">Precio: $666.00</p>
+                              </div>
+                          </div>
+                          <div class="card col-sm" style="width: 18rem;">
+                              <img class="card-img-top" src="Img/Portadas/cover.jpg" alt="Card image cap" />
+                              <div class="card-body">
+                                  <p class="card-text">Precio: $666.00</p>
+                              </div>
+                          </div>
+                          <div class="card col-sm" style="width: 18rem;">
+                              <img class="card-img-top" src="Img/Portadas/cover.jpg" alt="Card image cap" />
+                              <div class="card-body">
+                                  <p class="card-text">Precio: $666.00</p>
+                              </div>
+                          </div>
+
+                 </div>
+              </div>
+          </div>
+          <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+              <div class="recomendados nomargen">
+              <div class="row">
+                          <div class="card col-sm" style="width: 18rem;">
+                              <img class="card-img-top" src="Img/Portadas/cover2.jpg" alt="Card image cap" />
+                              <div class="card-body">
+                                  <p class="card-text">Precio: $666.00</p>
+                              </div>
+                          </div>
+                          <div class="card col-sm" style="width: 18rem;">
+                              <img class="card-img-top" src="Img/Portadas/cover2.jpg" alt="Card image cap" />
+                              <div class="card-body">
+                                  <p class="card-text">Precio: $666.00</p>
+                              </div>
+                          </div>
+                          <div class="card col-sm" style="width: 18rem;">
+                              <img class="card-img-top" src="Img/Portadas/cover2.jpg" alt="Card image cap" />
+                              <div class="card-body">
+                                  <p class="card-text">Precio: $666.00</p>
+                              </div>
+                          </div>
+                          <div class="card col-sm" style="width: 18rem;">
+                              <img class="card-img-top" src="Img/Portadas/cover2.jpg" alt="Card image cap" />
+                              <div class="card-body">
+                                  <p class="card-text">Precio: $666.00</p>
+                              </div>
+                          </div>
+                          <div class="card col-sm" style="width: 18rem;">
+                              <img class="card-img-top" src="Img/Portadas/cover2.jpg" alt="Card image cap" />
+                              <div class="card-body">
+                                  <p class="card-text">Precio: $666.00</p>
+                              </div>
+                          </div>
+                          <div class="card col-sm" style="width: 18rem;">
+                              <img class="card-img-top" src="Img/Portadas/cover2.jpg" alt="Card image cap" />
+                              <div class="card-body">
+                                  <p class="card-text">Precio: $666.00</p>
+                              </div>
+                          </div>
+
+                 </div>
+              </div>
+          </div>
+        </div>
 <br />
 <br />
         <%--Juegos--%>
         
         <%-- Consolas --%>
-        <div id="carConsolas" class="card">
+        <div id="carConsolas" class="card recomendados">
             <h3  class="bg-light">Consolas recomendadas:</h3>
              <div class="carousel slide" data-ride="carousel">
               <ol class="carousel-indicators">
@@ -272,7 +395,7 @@
 <br />
 
         <%-- Xbox --%>
-        <div id="carXbox" class="card">
+        <div id="carXbox" class="card recomendados">
             <h3  class="bg-light">Juegos de Xbox recomendados:</h3>
              <div class="carousel slide" data-ride="carousel">
               <ol class="carousel-indicators">
@@ -420,7 +543,7 @@
 <br />
 
         <%-- PlayStation --%>
-        <div id="carPlaystation" class="card">
+        <div id="carPlaystation" class="card recomendados">
             <h3  class="bg-light">Juegos de PS4 recomendados:</h3>
              <div class="carousel slide" data-ride="carousel">
               <ol class="carousel-indicators">
@@ -568,7 +691,7 @@
 <br />
 
         <%-- Nintendo --%>
-        <div id="carNintendo" class="card">
+        <div id="carNintendo" class="card recomendados">
             <h3  class="bg-light">Juegos de Nintendo recomendados:</h3>
              <div class="carousel slide" data-ride="carousel">
               <ol class="carousel-indicators">
@@ -711,6 +834,8 @@
               </a>
             </div>
         </div>
+
+
 
         <%--Footer--%>
         

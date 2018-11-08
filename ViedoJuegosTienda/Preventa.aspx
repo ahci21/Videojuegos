@@ -114,7 +114,7 @@
         
 
         <%-- Recomendaciones --%>
-        <div id="recomendados">
+        <div class="recomendados">
             <h3  class="bg-light">Quizá te interese:</h3>
              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
               <ol class="carousel-indicators">
