@@ -2,6 +2,12 @@
     height: 250px;
 }
 
+
+h3 {
+    margin-left:15px;
+    margin-top:10px;
+}
+
 p {
     text-align: center;
 }
@@ -33,11 +39,17 @@ p {
     margin-top:30px;
     margin-bottom: 100px;
 }
-#enviar{
+
+.tabLink {
+    color: black;
+}
+
+
+#enviar {
     margin-top: 20px;
-    font-size:medium;
-    margin-left:25%;
-    margin-right:8%;
+    font-size: medium;
+    margin-left: 25%;
+    margin-right: 8%;
 }
 #cancelar{
     margin-top: 20px;
