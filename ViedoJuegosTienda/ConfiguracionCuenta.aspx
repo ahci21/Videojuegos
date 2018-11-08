@@ -74,20 +74,26 @@
                             <label for="exampleInputName">Nombre de usuario</label>
                              <br/>   
                             <label for="nombreUsuario">Rebeca Najarro</label>
-                            <input type="name1" class="form-control" id="exampleInputName" aria-describedby="emailHelp">
+                            <input type="name1" class="form-control" id="Name" style="display:none" aria-describedby="emailHelp">
+                               <button type="button" class="btn btn-outline-secondary " id="btn1" onclick="mostrarCampo1()">Editar</button>
                           </div>
                           <div class="form-group">
                             <label for="exampleInputEmail1">Correo</label>
                              <br/>   
                             <label for="correoUsuario">rebeca@gmail.com</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
-                            <small id="emailHelp" class="form-text text-muted">Nunca compartiremos tu correo</small>
+                            <input type="email" class="form-control" id="Email" style="display:none" aria-describedby="emailHelp" placeholder="">
+                            
+                              <small id="emailHelp" class="form-text text-muted">Nunca compartiremos tu correo</small>
+                              <button type="button" id="btn2" class="btn btn-outline-secondary" onclick="mostrarCampo2()">Editar</button>
+
                           </div>
                            <div class="form-group">
                             <label for="exampleInputName">Número de telefono</label>
+
                             <br/>   
                             <label for="numeroUsuario">999 233 2233</label>
-                            <input type="number" class="form-control" id="exampleInputNumber" aria-describedby="emailHelp">
+                            <input type="number" class="form-control" id="Number" style="display:none" aria-describedby="emailHelp">
+                               <button type="button" id="btn3"class="btn btn-outline-secondary" onclick="mostrarCampo3()">Editar</button>
                           </div>
           
                         </form>
@@ -201,6 +207,53 @@
             
 
         }
+        function mostrarCampo1() {
+
+            var name = document.getElementById("Name");
+            var cancelar = document.getElementById("btn1");
+            if (name.style.display === "none") {
+                name.style.display = "block";
+                cancelar.innerText = "Cancelar";
+            } else {
+                name.style.display = "none";
+                cancelar.innerText = "Editar";
+            }
+
+            
+        }
+
+        function mostrarCampo2() {
+
+            var name = document.getElementById("Email");
+            var cancelar = document.getElementById("btn2");
+            if (name.style.display === "none") {
+                name.style.display = "block";
+                cancelar.innerText = "Cancelar";
+            } else {
+                name.style.display = "none";
+                cancelar.innerText = "Editar";
+            }
+
+
+        }
+
+
+        function mostrarCampo3() {
+
+            var name = document.getElementById("Number");
+            var cancelar = document.getElementById("btn3");
+            if (name.style.display === "none") {
+                name.style.display = "block";
+                cancelar.innerText = "Cancelar";
+            } else {
+                name.style.display = "none";
+                cancelar.innerText = "Editar";
+            }
+
+
+        }
+
+        
     </script>
 
 </body>
