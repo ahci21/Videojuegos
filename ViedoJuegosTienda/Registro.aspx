@@ -68,13 +68,13 @@
              <div class="form-row">
                  <div class="col">
                    <label for="inputApellidos4">Apellidos:</label>
-                  <input type="text" class="form-control" placeholder="Apellido(s)">
+                  <input type="text" id="validationServer02" class="form-control" placeholder="Apellido(s)">
                 </div>
              </div>
             <div class="form-row">
                 <div class="col">
                     <label for="validadorServidor02">Email:</label>
-                    <input type="email" class="form-control" id="validadorServidor02" placeholder="correo@ejemplo.dominio" required>
+                    <input type="email" class="form-control" id="validadorServidor01" placeholder="correo@ejemplo.dominio" required>
                     <div class="invalid-feedback">
                         Este campo es necesario.
                     </div>
@@ -83,7 +83,7 @@
             <div class="form-row">
                 <div class="col">
                     <label for="validadorServidor03">Nombre de Usuario:</label>
-                    <input type="text" class="form-control" id="validadorServidor03" placeholder="ejemplo: Incognito" required>
+                    <input type="text" class="form-control" id="validadorServidor02" placeholder="ejemplo: Incognito" required>
                     <div class="invalid-feedback">
                         Este campo es necesario.
                     </div>
@@ -108,8 +108,10 @@
                 </div>
             </div>
             <div class="g-recaptcha" data-sitekey="6LeKL3kUAAAAALMXVOfxXHBanIkLXNp4Usc4CYHc"></div>
-          <button type="submit" class="btn btn-primary">Registrar</button>
+            <asp:Button ID="btnRegistro" class="btn btn-outline-secondary" runat="server" OnClick="btnRegistrar_Click" Text="Registrar" />
         </div>
+
+        
 
         <br />
         <br />

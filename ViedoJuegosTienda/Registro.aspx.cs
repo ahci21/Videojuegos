@@ -13,5 +13,16 @@ namespace ViedoJuegosTienda
         {
 
         }
+
+        protected void btnRegistrar_Click(object sender, EventArgs e)
+        {
+            this.Session["txtNombres"]=Request.Form["validationServer01"];
+            this.Session["txtApellidos"] = Request.Form["validationServer02"];
+            this.Session["txtCorreo"] = Request.Form["validadorServidor01"];
+            this.Session["txtUsuario"] = Request.Form["validadorServidor02"];
+            this.Session["txtPassword"] = Request.Form["inputPassword1"];
+
+            Response.Redirect("Login.aspx");
+        }
     }
 }
