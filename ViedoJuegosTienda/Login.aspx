@@ -23,6 +23,7 @@
             <input class="form-control mr-sm-2" type="search" placeholder="Busca tu juego!" aria-label="Search">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
             <button onclick="location.href='Login.aspx'" class="btn btn-outline-success my-2 my-sm-0" type="button">Iniciar Sesión</button>
+            
             <button class="btn btn-outline-success my-2 my-sm-0" type="button"  onclick="location.href='Preventa.aspx'" >Carrito</button>
           </div>
         </nav>        
@@ -68,9 +69,10 @@
             <br />
 
             <div class="combocosas">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label" for="exampleCheck1">Recuerdame</label>            
+                
+                            
                 <asp:Button ID="ingresar" class="btn btn-outline-secondary" runat="server" OnClick="ingresar_Click" Text="Ingresar" />
+                 <a class="nav-item nav-link  " style="margin-left:40%;" href="Registro.aspx">Crear una cuenta</a>
             </div>
 
         </div>
@@ -122,5 +124,6 @@
             </div>
 
         </form>
+
 </body>
 </html>
