@@ -13,5 +13,15 @@ namespace ViedoJuegosTienda
         {
 
         }
+
+        protected void confAceptar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void confCancelar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
