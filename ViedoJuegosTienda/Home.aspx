@@ -119,8 +119,8 @@
           </li>
           
         </ul>
-<br />
-<br />
+        <br />
+        <br />
         <%--Juegos--%>
         
         <%-- Consolas --%>
@@ -268,8 +268,9 @@
             </div>
         </div>
 
-<br />
-<br />
+        <br />
+        <br />
+        
 
         <%-- Xbox --%>
         <div id="carXbox" class="card">
@@ -416,8 +417,8 @@
             </div>
         </div>
 
-<br />
-<br />
+        <br />
+        <br />
 
         <%-- PlayStation --%>
         <div id="carPlaystation" class="card">
@@ -564,8 +565,8 @@
             </div>
         </div>
 
-<br />       
-<br />
+        <br />       
+        <br />
 
         <%-- Nintendo --%>
         <div id="carNintendo" class="card">
