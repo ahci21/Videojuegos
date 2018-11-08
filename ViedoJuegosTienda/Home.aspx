@@ -13,15 +13,6 @@
     <link href="css/colores.css" rel="stylesheet" />
 
 </head>
-    <script>
-        /*$(document).ready(function () {
-            $("#navNintendo").click(function () {
-                $('html,body').animate({
-                    scrollTop: $("#hola").offset().top
-                },2000);
-            });
-        });*/
-    </script>
 <body>
 
 
@@ -34,7 +25,7 @@
             <input class="form-control mr-sm-2" type="search" placeholder="Busca tu juego!" aria-label="Search">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Iniciar Sesión</button>
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Carritou</button>
+            <button onclick="location.href='Preventa.aspx'" class="btn btn-outline-success my-2 my-sm-0" type="button">Carritou</button>
           </div>
         </nav>        
 
@@ -57,11 +48,6 @@
                 </div>
                <div class="col-sm">
                    <a class="nav-item nav-link texto aMenu" href="#carNintendo">Nintendo</a>
-                    
-                </div>
-                <div class="col-sm">
-
-                   <a class="nav-item nav-link texto aMenu" href="Preventa.aspx">Preventa</a>
                     
                 </div>
                <div class="col-sm">
@@ -457,19 +443,19 @@
   
 
                  <asp:HyperLink ID="Nintendo" runat="server" style ="color:white; margin-left:5%; margin-right:1%"
-                    NavigateUrl="#">
+                    NavigateUrl="#carNintendo">
                     Nintendo
                  </asp:HyperLink>
                  
     
                  <asp:HyperLink ID="Xbox" runat="server" style ="color:white; margin-left:5%; margin-right:1%"
-                    NavigateUrl="#">
+                    NavigateUrl="#carXbox">
                     Xbox
                  </asp:HyperLink>
                  
 
                 <asp:HyperLink ID="ps4" runat="server" style ="color:white; margin-left:5%; margin-right:1%"
-                    NavigateUrl="#">
+                    NavigateUrl="#carPlaystation">
                     PS4
                  </asp:HyperLink>
 
