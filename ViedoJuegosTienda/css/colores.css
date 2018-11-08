@@ -122,7 +122,17 @@ p {
     margin-top:50px;
     margin-bottom: 50px;
 }
-
+.contras{
+    width:35%;
+    margin-top:50px;
+    margin-left:35%;
+    margin-bottom:50px;
+}
+.botonesContra{
+    margin-top:30px;
+    margin-left:20%;
+    
+}
 /*.seleccion{
     margin-top:150px;
     margin-left:10%;

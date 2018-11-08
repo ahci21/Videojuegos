@@ -23,5 +23,20 @@ namespace ViedoJuegosTienda
         {
 
         }
+
+        protected void confContra_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void confCance_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void contraOriginal_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -46,11 +46,7 @@
                    <a class="nav-item nav-link texto aMenu" href="#">Nintendo</a>
                     
                 </div>
-                <div class="col-sm">
-
-                   <a class="nav-item nav-link texto aMenu" href="Preventa.aspx">Preventa</a>
-                    
-                </div>
+                
                <div class="col-sm">
                   <a class="nav-item nav-link texto aMenu" href="Contacto.aspx">Contacto</a>
               
@@ -104,10 +100,11 @@
           <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
               <div class="recomendados nomargen">
 
+                  <div class="contras">
                   <form class="form-inline">
                       <div class="form-group">
-                        <label for="inputPassword6">Password</label>
-                        <input type="password" id="inputPassword6" class="form-control mx-sm-3" aria-describedby="passwordHelpInline">
+                        <label for="inputPassword">Password</label>
+                        <input type="password" class="form-control mx-sm-3" size="8" aria-describedby="passwordHelpInline">
                         <small id="passwordHelpInline" class="text-muted">
                           Debe ser de 8 caracteres maximo.
                         </small>
@@ -116,12 +113,16 @@
                     <form class="form-inline">
                       <div class="form-group">
                         <label for="inputPassword2">Password</label>
-                        <input type="password" id="inputPassword2" class="form-control mx-sm-3" aria-describedby="passwordHelpInline">
+                        <input type="password" id="inputPassword2" class="form-control mx-sm-3" size="8" aria-describedby="passwordHelpInline">
                         <small id="passwordHelpInline1" class="text-muted">
                           Debe ser de 8 caracteres maximo.
                         </small>
                       </div>
                     </form>
+                <button type="button"  class="btn btn-outline-secondary" onclick="validarPasswd">Aceptar</button>
+                      
+                  <button type="button" class="btn btn-outline-secondary">Cancelar</button>
+                </div>  
               </div>
           </div>
         </div>
@@ -177,5 +178,12 @@
       
         
     </form>
+    <script>
+        function validarPasswd() {
+            alert(p1);
+
+        }
+    </script>
+
 </body>
 </html>
