@@ -46,6 +46,17 @@ p {
     margin-bottom: 15%;
 }
 
+.inicio{
+    margin: 15%;
+    margin-left: 35%;
+    width: 30%;
+}
+
+.combocosas{
+    margin-left:30%;
+    margin-top: 5%;
+}
+
 
 .cajaContacto {
     width: 700px;
