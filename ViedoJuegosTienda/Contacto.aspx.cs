@@ -23,8 +23,8 @@ namespace ViedoJuegosTienda
         {
 
             nombre = Request.Form["nombre"];
-            correo = Request.Form["nombre"];
-            comentario = Request.Form["nombre"];
+            correo = Request.Form["correo"];
+            comentario = Request.Form["comentario"];
 
             ServerValue = "Changed" + Request.Form["nombre"];
 

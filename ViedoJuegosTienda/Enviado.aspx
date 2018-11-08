@@ -59,7 +59,6 @@
 
 
             <div class="enviado">
-                <input id="txtDesc2" name="txtDesc2" type="text" value="<% =ServerValue %>" />
                 <h1 style="text-align:center; margin-top:18%;">Enviado!</h1> 
                 <asp:Button ID="Button1" class="btn btn-outline-secondary regresar" runat="server" OnClick="Button1_Click" Text="Regresar a Home" />
             </div>

@@ -119,7 +119,7 @@
                         </small>
                       </div>
                     </form>
-                <button type="button"  class="btn btn-outline-secondary" onclick="validarPasswd">Aceptar</button>
+                <button type="button"  class="btn btn-outline-secondary" onclick="validarPasswd()">Aceptar</button>
                       
                   <button type="button" class="btn btn-outline-secondary">Cancelar</button>
                 </div>  
@@ -180,7 +180,7 @@
     </form>
     <script>
         function validarPasswd() {
-            alert(p1);
+            alert("Guanabana");
 
         }
     </script>
