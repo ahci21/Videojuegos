@@ -24,7 +24,7 @@
             <input class="form-control mr-sm-2" type="search" placeholder="Busca tu juego!" aria-label="Search">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Iniciar Sesión</button>
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Carritou</button>
+            <button class="btn btn-outline-success my-2 my-sm-0" type="button"  onclick="location.href='Preventa.aspx'" >Carritou</button>
           </div>
         </nav>        
 
@@ -37,20 +37,15 @@
                 </div>
                
                <div class="col-sm">
-                   <a class="nav-item nav-link texto aMenu" href="#"> Xbox</a>
+                   <a class="nav-item nav-link texto aMenu" href="Home.aspx#carXbox"> Xbox</a>
                    
                 </div>
                <div class="col-sm">
-                   <a class="nav-item nav-link texto aMenu" href="#"> Ps4</a>
+                   <a class="nav-item nav-link texto aMenu" href="Home.aspx#carPlaystation"> Ps4</a>
                    
                 </div>
                <div class="col-sm">
-                   <a class="nav-item nav-link texto aMenu" href="#">Nintendo</a>
-                    
-                </div>
-               <div class="col-sm">
-
-                   <a class="nav-item nav-link texto aMenu" href="Preventa.aspx">Preventa</a>
+                   <a class="nav-item nav-link texto aMenu" href="Home.aspx#carNintendo">Nintendo</a>
                     
                 </div>
                <div class="col-sm">
@@ -117,20 +112,20 @@
                 </asp:HyperLink>
   
 
-                 <asp:HyperLink ID="Nintendo" runat="server" style ="color:white; margin-left:5%; margin-right:1%"
-                    NavigateUrl="#">
+                <asp:HyperLink ID="Nintendo" runat="server" style ="color:white; margin-left:5%; margin-right:1%"
+                    NavigateUrl="Home.aspx#carNintendo">
                     Nintendo
                  </asp:HyperLink>
                  
     
                  <asp:HyperLink ID="Xbox" runat="server" style ="color:white; margin-left:5%; margin-right:1%"
-                    NavigateUrl="#">
+                    NavigateUrl="Home.aspx#carXbox">
                     Xbox
                  </asp:HyperLink>
                  
 
                 <asp:HyperLink ID="ps4" runat="server" style ="color:white; margin-left:5%; margin-right:1%"
-                    NavigateUrl="#">
+                    NavigateUrl="Home.aspx#carPlaystation">
                     PS4
                  </asp:HyperLink>
 
