@@ -64,15 +64,15 @@
 
               <div class="form-group">
                 <label for="exampleFormControlInput1">Nombre</label>
-                <input type="name"  class="form-control" id="nombre" >
+                <input type="name"  class="form-control" id="nombre" name="nombre">
               </div>
               <div class="form-group">
                 <label for="exampleFormControlInput1">Correo</label>
-                <input type="email" class="form-control" id="email" placeholder="correo@gmail.com" > 
+                <input type="email" class="form-control" id="email"  name="coreo" placeholder="correo@gmail.com" > 
               </div>
               <div class="form-group">
                 <label for="exampleFormControlTextarea1">Comentarios</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="8"></textarea>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="8" name="comentario"></textarea>
 
            
               </div>

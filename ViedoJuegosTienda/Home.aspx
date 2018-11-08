@@ -88,42 +88,6 @@
           </a>
         </div>
 
-<<<<<<< HEAD
-
-        <%--Menu Consolas--%>
-          <ul class="nav nav-tabs">
-          <li class="nav-item">
-            <a class="nav-link" href="#carConsolas">Consolas</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#carNintendo">Nintendo</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#carXbox">Xbox</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#carPlaystation">PS4</a>
-          </li>
-          
-        </ul>
-        <br />
-        <br />
-        <%--Juegos--%>
-        
-        <%-- Consolas --%>
-        <div id="carConsolas" class="card">
-            <h3  class="bg-light">Consolas recomendadas:</h3>
-             <div class="carousel slide" data-ride="carousel">
-              <ol class="carousel-indicators">
-                <li data-target="#carusel" data-slide-to="0" class="active"></li>
-                <li data-target="#carusel" data-slide-to="1"></li>
-                <li data-target="#carusel" data-slide-to="2"></li>
-              </ol>
-              <div class="carousel-inner">
-                  <div class="carousel-item active">
-                      <div class="row">
-=======
-<br />
         <%--Menu Consolas--%>
          <nav>
           <div class="nav nav-tabs" id="nav-tab" role="tablist">
@@ -136,7 +100,6 @@
           <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
               <div class="recomendados nomargen" >
               <div class="row">
->>>>>>> 28cb32315dfb9abbecb4cb7ad4111cddc8517121
                           <div class="card col-sm" style="width: 18rem;">
                               <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap" />
                               <div class="card-body">
@@ -264,55 +227,6 @@
               </div>
           </div>
         </div>
-<<<<<<< HEAD
-
-        <br />
-        <br />
-        
-
-        <%-- Xbox --%>
-        <div id="carXbox" class="card">
-            <h3  class="bg-light">Juegos de Xbox recomendados:</h3>
-             <div class="carousel slide" data-ride="carousel">
-              <ol class="carousel-indicators">
-                <li data-target="#carusel" data-slide-to="0" class="active"></li>
-                <li data-target="#carusel" data-slide-to="1"></li>
-                <li data-target="#carusel" data-slide-to="2"></li>
-              </ol>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <div class="row">
-                      <div class="card col-sm" style="width: 18rem;">
-                          <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap"/>
-                          <div class="card-body">
-                            <p class="card-text">Precio: $666.00</p>
-                          </div>
-                       </div>
-                      <div class="card col-sm" style="width: 18rem;">
-                          <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap"/>
-                          <div class="card-body">
-                            <p class="card-text">Precio: $666.00</p>
-                          </div>
-                       </div>
-                      <div class="card col-sm" style="width: 18rem;">
-                          <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap"/>
-                          <div class="card-body">
-                            <p class="card-text">Precio: $666.00</p>
-                          </div>
-                       </div>
-                      <div class="card col-sm" style="width: 18rem;">
-                          <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap"/>
-                          <div class="card-body">
-                            <p class="card-text">Precio: $666.00</p>
-                          </div>
-                       </div>
-                      <div class="card col-sm" style="width: 18rem;">
-                          <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap"/>
-                          <div class="card-body">
-                            <p class="card-text">Precio: $666.00</p>
-                          </div>
-                       </div>
-=======
 <br />
         <%--Juegos--%>
         
@@ -320,7 +234,6 @@
         <div id="carConsolas" class="recomendados card">
             <h3>Más Vendidos</h3>
             <div class="row">
->>>>>>> 28cb32315dfb9abbecb4cb7ad4111cddc8517121
                       <div class="card col-sm" style="width: 18rem;">
                           <img class="card-img-top" src="Img/Portadas/cover.jpg" alt="Card image cap"/>
                           <div class="card-body">
@@ -361,61 +274,7 @@
                   </div>
         </div>
 
-<<<<<<< HEAD
-        <br />
-        <br />
-
-        <%-- PlayStation --%>
-        <div id="carPlaystation" class="card">
-            <h3  class="bg-light">Juegos de PS4 recomendados:</h3>
-             <div class="carousel slide" data-ride="carousel">
-              <ol class="carousel-indicators">
-                <li data-target="#carusel" data-slide-to="0" class="active"></li>
-                <li data-target="#carusel" data-slide-to="1"></li>
-                <li data-target="#carusel" data-slide-to="2"></li>
-              </ol>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <div class="row">
-                      <div class="card col-sm" style="width: 18rem;">
-                          <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap"/>
-                          <div class="card-body">
-                            <p class="card-text">Precio: $666.00</p>
-                          </div>
-                       </div>
-                      <div class="card col-sm" style="width: 18rem;">
-                          <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap"/>
-                          <div class="card-body">
-                            <p class="card-text">Precio: $666.00</p>
-                          </div>
-                       </div>
-                      <div class="card col-sm" style="width: 18rem;">
-                          <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap"/>
-                          <div class="card-body">
-                            <p class="card-text">Precio: $666.00</p>
-                          </div>
-                       </div>
-                      <div class="card col-sm" style="width: 18rem;">
-                          <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap"/>
-                          <div class="card-body">
-                            <p class="card-text">Precio: $666.00</p>
-                          </div>
-                       </div>
-                      <div class="card col-sm" style="width: 18rem;">
-                          <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap"/>
-                          <div class="card-body">
-                            <p class="card-text">Precio: $666.00</p>
-                          </div>
-                       </div>
-                      <div class="card col-sm" style="width: 18rem;">
-                          <img class="card-img-top" src="Img/Portadas/cover3.jpg" alt="Card image cap"/>
-                          <div class="card-body">
-                            <p class="card-text">Precio: $666.00</p>
-                          </div>
-                       </div>
-=======
 <br />
->>>>>>> 28cb32315dfb9abbecb4cb7ad4111cddc8517121
 
         <%-- Xbox --%>
         <div id="carXbox" class="recomendados card">
@@ -461,12 +320,8 @@
                   </div>
         </div>
 
-<<<<<<< HEAD
-        <br />       
-        <br />
-=======
+
 <br />
->>>>>>> 28cb32315dfb9abbecb4cb7ad4111cddc8517121
 
         <%-- PlayStation --%>
 

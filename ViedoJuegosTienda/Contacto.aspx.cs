@@ -9,6 +9,11 @@ namespace ViedoJuegosTienda
 {
     public partial class Contacto : System.Web.UI.Page
     {
+        String nombre = String.Empty;
+        String correo = String.Empty;
+        String comentario = String.Empty;
+        String ServerValue = String.Empty;
+
         protected void Page_Load(object sender, EventArgs e)
         {
 
@@ -16,11 +21,15 @@ namespace ViedoJuegosTienda
 
         protected void enviar_Click(object sender, EventArgs e)
         {
-            //Response.Redirect("Enviado.aspx");
-            Label lb = (Label)FindControl("nombre");
-            lb.Text = "New text";
+
+            nombre = Request.Form["nombre"];
+            correo = Request.Form["nombre"];
+            comentario = Request.Form["nombre"];
+
+            ServerValue = "Changed" + Request.Form["nombre"];
 
 
+            Response.Redirect("Enviado.aspx?nombre="+nombre+"&correo="+correo+"&comentario="+comentario);
         }
 
         protected void cancelar_Click(object sender, EventArgs e)
