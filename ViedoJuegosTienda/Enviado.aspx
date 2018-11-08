@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Home.aspx.cs" Inherits="ViedoJuegosTienda.Home" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Enviado.aspx.cs" Inherits="ViedoJuegosTienda.Enviado" %>
 
 <!DOCTYPE html>
 

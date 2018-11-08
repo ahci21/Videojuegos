@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Home.aspx.cs" Inherits="ViedoJuegosTienda.Home" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="ViedoJuegosTienda.Login" %>
 
 <!DOCTYPE html>
 
@@ -18,7 +18,7 @@
     <form id="form1" runat="server">
         <%--Search Bar--%>
         <nav class="navbar navbar-light bg-light">
-          <a id="hola" class="navbar-brand">Games Tec</a>
+          <a id="hola2" class="navbar-brand">Games Tec</a>
           <div class="form-inline">
             <input class="form-control mr-sm-2" type="search" placeholder="Busca tu juego!" aria-label="Search">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
@@ -26,6 +26,7 @@
             
             <button class="btn btn-outline-success my-2 my-sm-0" type="button"  onclick="location.href='Preventa.aspx'" >Carrito</button>
                <button class="btn btn-outline-success my-2 my-sm-0" type="button"  onclick="location.href='ConfiguracionCuenta.aspx'" >Configuraciones</button>
+              <asp:Label ID="lblSessionL" runat="server" Text="Seción no iniciada"/>
           </div>
         </nav>        
 

@@ -20,13 +20,14 @@
     <form id="form1" runat="server">
         <%--Search Bar--%>
         <nav class="navbar navbar-light bg-light">
-          <a id="hola" class="navbar-brand">Games Tec</a>
+          <a id="hola3" class="navbar-brand">Games Tec</a>
           <div class="form-inline">
             <input class="form-control mr-sm-2" type="search" placeholder="Busca tu juego!" aria-label="Search">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Iniciar Sesión</button>
-            <button onclick="location.href='Preventa.aspx'" class="btn btn-outline-success my-2 my-sm-0" type="button">Carritou</button>
+            <button onclick="location.href='Preventa.aspx'" class="btn btn-outline-success my-2 my-sm-0" type="button">Carrito</button>
                <button class="btn btn-outline-success my-2 my-sm-0" type="button"  onclick="location.href='ConfiguracionCuenta.aspx'" >Configuraciones</button>
+              <asp:Label ID="lblSessionR" runat="server" Text="Seción no iniciada"/>
           </div>
         </nav>
 

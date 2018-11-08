@@ -20,13 +20,14 @@
 
         <%--Search Bar--%>
         <nav class="navbar navbar-light bg-light">
-          <a id="hola" class="navbar-brand">Games Tec</a>
+          <a id="hola1" class="navbar-brand">Games Tec</a>
           <div class="form-inline">
             <input class="form-control mr-sm-2" type="search" placeholder="Busca tu juego!" aria-label="Search">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
-            <button onclick="location.href='Login.aspx'" class="btn btn-outline-success my-2 my-sm-0" type="button">Iniciar Sesión</button>
+            <button id="btnSecion" onclick="location.href='Login.aspx'" class="btn btn-outline-success my-2 my-sm-0" type="button">Iniciar Sesión</button>
             <button class="btn btn-outline-success my-2 my-sm-0" type="button"  onclick="location.href='Preventa.aspx'" >Carrito</button>
             <button class="btn btn-outline-success my-2 my-sm-0" type="button"  onclick="location.href='ConfiguracionCuenta.aspx'" >Configuraciones</button>
+              
           </div>
         </nav>        
 
@@ -418,6 +419,7 @@
         </div>
 
 
+                <asp:HyperLink ID="lblSessionH" runat="server" Text="Seción no iniciada"/>
 
         <%--Footer--%>
         
@@ -460,7 +462,6 @@
                 NavigateUrl="#">
                 Facebook
             </asp:HyperLink>
-                
             </div>
       
         
