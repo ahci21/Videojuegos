@@ -38,15 +38,15 @@
                 </div>
                
                <div class="col-sm">
-                   <a class="nav-item nav-link texto aMenu" href="#"> Xbox</a>
+                   <a class="nav-item nav-link texto aMenu" href="Home.aspx#carXbox"> Xbox</a>
                    
                 </div>
                <div class="col-sm">
-                   <a class="nav-item nav-link texto aMenu" href="#"> Ps4</a>
+                   <a class="nav-item nav-link texto aMenu" href="Home.aspx#carPlaystation"> Ps4</a>
                    
                 </div>
                <div class="col-sm">
-                   <a class="nav-item nav-link texto aMenu" href="#">Nintendo</a>
+                   <a class="nav-item nav-link texto aMenu" href="Home.aspx#carNintendo">Nintendo</a>
                     
                 </div>
                <div class="col-sm">
