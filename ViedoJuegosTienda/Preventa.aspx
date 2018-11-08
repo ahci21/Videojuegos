@@ -24,7 +24,7 @@
             <input class="form-control mr-sm-2" type="search" placeholder="Busca tu juego!" aria-label="Search">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Iniciar Sesión</button>
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Carritou</button>
+            <button class="btn btn-outline-success my-2 my-sm-0" type="button"  onclick="location.href='Preventa.aspx'" >Carritou</button>
           </div>
         </nav>        
 
@@ -38,20 +38,15 @@
                 </div>
                
                <div class="col-sm">
-                   <a class="nav-item nav-link texto aMenu" href="#"> Xbox</a>
+                   <a class="nav-item nav-link texto aMenu" href="Home.aspx#carXbox"> Xbox</a>
                    
                 </div>
                <div class="col-sm">
-                   <a class="nav-item nav-link texto aMenu" href="#"> Ps4</a>
+                   <a class="nav-item nav-link texto aMenu" href="Home.aspx#carPlaystation"> Ps4</a>
                    
                 </div>
                <div class="col-sm">
-                   <a class="nav-item nav-link texto aMenu" href="#">Nintendo</a>
-                    
-                </div>
-               <div class="col-sm">
-
-                   <a class="nav-item nav-link texto aMenu" href="Preventa.aspx">Preventa</a>
+                   <a class="nav-item nav-link texto aMenu" href="Home.aspx#carNintendo">Nintendo</a>
                     
                 </div>
                <div class="col-sm">
@@ -105,7 +100,7 @@
             </table>
             </div>
             <%--<div class="venta">--%>
-            <h2 >¿Qué desea hacer?</h2>
+            <h2>¿Qué desea hacer?</h2>
             <asp:Button ID="venta" class="btn btn-outline-secondary" runat="server" OnClick="venta_Click" Text="Aceptar" />
             <asp:Button ID="cancelarVenta" class="btn btn-outline-secondary cancelar" runat="server" OnClick="cancelarVenta_Click" Text="Cancelar compra" />
             <%--</div>--%>
@@ -114,7 +109,7 @@
         
 
         <%-- Recomendaciones --%>
-        <div id="recomendados">
+        <div class="recomendados">
             <h3  class="bg-light">Quizá te interese:</h3>
              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
               <ol class="carousel-indicators">
@@ -281,24 +276,24 @@
   
 
                  <asp:HyperLink ID="Nintendo" runat="server" style ="color:white; margin-left:5%; margin-right:1%"
-                    NavigateUrl="#">
+                    NavigateUrl="Home.aspx#carNintendo">
                     Nintendo
                  </asp:HyperLink>
                  
     
                  <asp:HyperLink ID="Xbox" runat="server" style ="color:white; margin-left:5%; margin-right:1%"
-                    NavigateUrl="#">
+                    NavigateUrl="Home.aspx#carXbox">
                     Xbox
                  </asp:HyperLink>
                  
 
                 <asp:HyperLink ID="ps4" runat="server" style ="color:white; margin-left:5%; margin-right:1%"
-                    NavigateUrl="#">
+                    NavigateUrl="Home.aspx#carPlaystation">
                     PS4
                  </asp:HyperLink>
 
             <asp:HyperLink ID="face" runat="server" style ="color:white; float:right"
-                NavigateUrl="#">
+                NavigateUrl="www.facebook.com">
                 Facebook
             </asp:HyperLink>
                 

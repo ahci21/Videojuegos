@@ -7,19 +7,19 @@ using System.Web.UI.WebControls;
 
 namespace ViedoJuegosTienda
 {
-    public partial class Contacto : System.Web.UI.Page
+    public partial class ConfiguracionCuenta : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
 
         }
 
-        protected void enviar_Click(object sender, EventArgs e)
+        protected void confAceptar_Click(object sender, EventArgs e)
         {
-            Response.Redirect("Enviado.aspx");
+
         }
 
-        protected void cancelar_Click(object sender, EventArgs e)
+        protected void confCancelar_Click(object sender, EventArgs e)
         {
 
         }

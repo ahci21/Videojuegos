@@ -10,7 +10,7 @@
 namespace ViedoJuegosTienda {
     
     
-    public partial class Contacto {
+    public partial class ConfiguracionCuenta {
         
         /// <summary>
         /// form1 control.
@@ -22,13 +22,22 @@ namespace ViedoJuegosTienda {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// enviar control.
+        /// confAceptar control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button enviar;
+        protected global::System.Web.UI.WebControls.Button confAceptar;
+        
+        /// <summary>
+        /// confCancelar control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button confCancelar;
         
         /// <summary>
         /// derechos control.
