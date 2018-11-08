@@ -60,63 +60,24 @@
         </div>
 
         <%--Configuracion--%>
-        <form>
-          <div class="form-row">
-            <div class="col-md-4 mb-3">
-              <label for="validationServer01">Nombre</label>
-              <input type="text" class="form-control is-valid" id="validationServer01" placeholder="First name" value="" required>
-              
-            </div>
-            <div class="col-md-4 mb-3">
-              <label for="validationServerUsername">Username</label>
-              <div class="input-group">
-                <div class="input-group-prepend">
-                  <span class="input-group-text" id="inputGroupPrepend3">@</span>
-                </div>
-                <input type="text" class="form-control is-invalid" id="validationServerUsername" placeholder="Username" aria-describedby="inputGroupPrepend3" required>
-                <div class="invalid-feedback">
-                  Please choose a username.
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="form-row">
-            <div class="col-md-6 mb-3">
-              <label for="validationServer03">City</label>
-              <input type="text" class="form-control is-invalid" id="validationServer03" placeholder="City" required>
-              <div class="invalid-feedback">
-                Please provide a valid city.
-              </div>
-            </div>
-            <div class="col-md-3 mb-3">
-              <label for="validationServer04">State</label>
-              <input type="text" class="form-control is-invalid" id="validationServer04" placeholder="State" required>
-              <div class="invalid-feedback">
-                Please provide a valid state.
-              </div>
-            </div>
-            <div class="col-md-3 mb-3">
-              <label for="validationServer05">Zip</label>
-              <input type="text" class="form-control is-invalid" id="validationServer05" placeholder="Zip" required>
-              <div class="invalid-feedback">
-                Please provide a valid zip.
-              </div>
-            </div>
+        <div class="configuracion1">
+       <form>
+           <div class="form-group">
+            <label for="exampleInputName">Nombre de usuario</label>
+            <input type="name" class="form-control" id="exampleInputName" aria-describedby="emailHelp">
           </div>
           <div class="form-group">
-            <div class="form-check">
-              <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" required>
-              <label class="form-check-label" for="invalidCheck3">
-                Agree to terms and conditions
-              </label>
-              <div class="invalid-feedback">
-                You must agree before submitting.
-              </div>
-            </div>
+            <label for="exampleInputEmail1">Correo</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
+            <small id="emailHelp" class="form-text text-muted">Nunca compartiremos tu correo</small>
           </div>
-          <button class="btn btn-primary" type="submit">Submit form</button>
+           <div class="form-group">
+            <label for="exampleInputName">Número de telefono</label>
+            <input type="number" class="form-control" id="exampleInputNumber" aria-describedby="emailHelp">
+          </div>
+          
         </form>
-   
+    </div>
           <%--Footer--%>
         
 
