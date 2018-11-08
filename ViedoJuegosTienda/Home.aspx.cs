@@ -9,7 +9,9 @@ namespace ViedoJuegosTienda
 {
     public partial class Home : System.Web.UI.Page
     {
-        
+        String correo = String.Empty;
+        String contraseña = String.Empty;
+
 
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -22,7 +24,12 @@ namespace ViedoJuegosTienda
 
         protected void ingresar_Click(object sender, EventArgs e)
         {
+            correo = Request.Form["correo"];/*esto es name no id*/
+            contraseña = Request.Form["contraseña"];
 
+            if(correo=="guanabana@gmail.com" && contraseña == "guanabana"){
+                Response.Redirect("Home.aspx");
+            }
         }
     }
 }

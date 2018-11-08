@@ -22,8 +22,8 @@
           <div class="form-inline">
             <input class="form-control mr-sm-2" type="search" placeholder="Busca tu juego!" aria-label="Search">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Iniciar Sesión</button>
-            <button onclick="location.href='Preventa.aspx'" class="btn btn-outline-success my-2 my-sm-0" type="button">Carritou</button>
+            <button onclick="location.href='Login.aspx'" class="btn btn-outline-success my-2 my-sm-0" type="button">Iniciar Sesión</button>
+            <button class="btn btn-outline-success my-2 my-sm-0" type="button"  onclick="location.href='Preventa.aspx'" >Carrito</button>
           </div>
         </nav>        
 
@@ -64,7 +64,7 @@
             <small id="emailHelp" class="form-text text-muted">Nunca compartiremos tu correo</small>
 
              <label for="exampleInputPassword1">Contraseña</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña" required>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña" name="contraseña" required>
             <br />
 
             <div class="combocosas">

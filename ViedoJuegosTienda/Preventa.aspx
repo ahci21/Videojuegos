@@ -23,10 +23,10 @@
           <div class="form-inline">
             <input class="form-control mr-sm-2" type="search" placeholder="Busca tu juego!" aria-label="Search">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Iniciar Sesión</button>
-            <button class="btn btn-outline-success my-2 my-sm-0" type="button"  onclick="location.href='Preventa.aspx'" >Carritou</button>
+            <button onclick="location.href='Login.aspx'" class="btn btn-outline-success my-2 my-sm-0" type="button">Iniciar Sesión</button>
+            <button class="btn btn-outline-success my-2 my-sm-0" type="button"  onclick="location.href='Preventa.aspx'" >Carrito</button>
           </div>
-        </nav>        
+        </nav>          
 
         <%--Nav Bar--%>
         
