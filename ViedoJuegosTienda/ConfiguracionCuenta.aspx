@@ -59,25 +59,74 @@
             </div>
         </div>
 
-        <%--Configuracion--%>
-        <div class="configuracion1">
-       <form>
-           <div class="form-group">
-            <label for="exampleInputName">Nombre de usuario</label>
-            <input type="name" class="form-control" id="exampleInputName" aria-describedby="emailHelp">
+
+         <%--navegarBarra--%>
+         <nav>
+          <div class="nav nav-tabs" id="nav-tab" role="tablist">
+            <a class="nav-item nav-link active tabLink" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Configuracion</a>
+            <a class="nav-item nav-link tabLink" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Contraseña</a>
+         
           </div>
-          <div class="form-group">
-            <label for="exampleInputEmail1">Correo</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
-            <small id="emailHelp" class="form-text text-muted">Nunca compartiremos tu correo</small>
-          </div>
-           <div class="form-group">
-            <label for="exampleInputName">Número de telefono</label>
-            <input type="number" class="form-control" id="exampleInputNumber" aria-describedby="emailHelp">
-          </div>
+        </nav>
+        <div class="tab-content" id="nav-tabContent">
+          <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+              <div class="recomendados nomargen" >
+                  <%--Configuracion--%>
+                        <div class="configuracion1">
+                       <form>
+                           <div class="form-group">
+                            <label for="exampleInputName">Nombre de usuario</label>
+                             <br/>   
+                            <label for="nombreUsuario">Rebeca Najarro</label>
+                            <input type="name1" class="form-control" id="exampleInputName" aria-describedby="emailHelp">
+                          </div>
+                          <div class="form-group">
+                            <label for="exampleInputEmail1">Correo</label>
+                             <br/>   
+                            <label for="correoUsuario">rebeca@gmail.com</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
+                            <small id="emailHelp" class="form-text text-muted">Nunca compartiremos tu correo</small>
+                          </div>
+                           <div class="form-group">
+                            <label for="exampleInputName">Número de telefono</label>
+                            <br/>   
+                            <label for="numeroUsuario">999 233 2233</label>
+                            <input type="number" class="form-control" id="exampleInputNumber" aria-describedby="emailHelp">
+                          </div>
           
-        </form>
-    </div>
+                        </form>
+                        <asp:Button ID="confAceptar" class="btn btn-outline-secondary" runat="server" OnClick="confAceptar_Click" Text="Aceptar" />
+                        <asp:Button ID="confCancelar" class="btn btn-outline-secondary" runat="server" OnClick="confCancelar_Click" Text="Cancelar" />
+                    </div>
+
+              </div>
+          </div>
+          <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+              <div class="recomendados nomargen">
+
+                  <form class="form-inline">
+                      <div class="form-group">
+                        <label for="inputPassword6">Password</label>
+                        <input type="password" id="inputPassword6" class="form-control mx-sm-3" aria-describedby="passwordHelpInline">
+                        <small id="passwordHelpInline" class="text-muted">
+                          Debe ser de 8 caracteres maximo.
+                        </small>
+                      </div>
+                    </form>
+                    <form class="form-inline">
+                      <div class="form-group">
+                        <label for="inputPassword2">Password</label>
+                        <input type="password" id="inputPassword2" class="form-control mx-sm-3" aria-describedby="passwordHelpInline">
+                        <small id="passwordHelpInline1" class="text-muted">
+                          Debe ser de 8 caracteres maximo.
+                        </small>
+                      </div>
+                    </form>
+              </div>
+          </div>
+        </div>
+
+        
           <%--Footer--%>
         
 
