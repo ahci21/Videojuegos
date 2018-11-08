@@ -16,7 +16,7 @@ namespace ViedoJuegosTienda
 
         protected void enviar_Click(object sender, EventArgs e)
         {
-
+            Response.Redirect("Enviado.aspx");
         }
 
         protected void cancelar_Click(object sender, EventArgs e)
