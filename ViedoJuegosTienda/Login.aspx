@@ -70,7 +70,7 @@
             <div class="combocosas">
                 <input type="checkbox" class="form-check-input" id="exampleCheck1">
                 <label class="form-check-label" for="exampleCheck1">Recuerdame</label>            
-                <button type="submit" class="btn btn-primary">Ingresar</button>
+                <asp:Button ID="ingresar" class="btn btn-outline-secondary" runat="server" OnClick="ingresar_Click" Text="Ingresar" />
             </div>
 
         </div>

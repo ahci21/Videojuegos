@@ -20,5 +20,9 @@ namespace ViedoJuegosTienda
             Response.Redirect("Home.aspx");
         }
 
+        protected void ingresar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
