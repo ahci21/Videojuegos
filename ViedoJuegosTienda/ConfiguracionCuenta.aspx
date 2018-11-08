@@ -117,9 +117,11 @@
                         
                       </div>
                     </form>
-                <button type="button"  class="btn btn-outline-secondary" onclick="validarPasswd()">Aceptar</button>
+                      <div class="botonesContra"> 
+                        <button type="button"  class="btn btn-outline-secondary" onclick="validarPasswd()">Aceptar</button>
                       
-                  <button type="button" class="btn btn-outline-secondary">Cancelar</button>
+                          <button type="button" class="btn btn-outline-secondary">Cancelar</button>
+                       </div> 
                 </div>  
               </div>
           </div>
