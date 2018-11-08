@@ -83,9 +83,9 @@
                             <label for="correoUsuario">rebeca@gmail.com</label>
                             <input type="email" class="form-control" id="Email" style="display:none" aria-describedby="emailHelp" placeholder="">
                             
-                              <small id="emailHelp" class="form-text text-muted">Nunca compartiremos tu correo</small>
+                              
                               <button type="button" id="btn2" class="btn btn-outline-secondary" onclick="mostrarCampo2()">Editar</button>
-
+                              <small id="emailHelp" class="form-text text-muted">Nunca compartiremos tu correo</small>
                           </div>
                            <div class="form-group">
                             <label for="exampleInputName">Número de telefono</label>
