@@ -88,7 +88,6 @@
           </a>
         </div>
 
-<br />
         <%--Menu Consolas--%>
          <nav>
           <div class="nav nav-tabs" id="nav-tab" role="tablist">
@@ -320,6 +319,7 @@
 
                   </div>
         </div>
+
 
 <br />
 
