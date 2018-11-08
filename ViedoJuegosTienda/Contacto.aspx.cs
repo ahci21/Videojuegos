@@ -22,13 +22,13 @@ namespace ViedoJuegosTienda
         protected void enviar_Click(object sender, EventArgs e)
         {
 
-            nombre = Request.Form["nombre"];
+            nombre = Request.Form["nombre"];/*esto es name no id*/
             correo = Request.Form["correo"];
             comentario = Request.Form["comentario"];
 
-            ServerValue = "Changed" + Request.Form["nombre"];
+            //ServerValue = "Changed" + Request.Form["nombre"];
 
-
+            // el ? es enviarle valores  & es una y literalmente
             Response.Redirect("Enviado.aspx?nombre="+nombre+"&correo="+correo+"&comentario="+comentario);
         }
 
